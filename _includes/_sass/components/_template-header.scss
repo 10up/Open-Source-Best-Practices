@@ -1,0 +1,35 @@
+.template-header {
+  -webkit-background-size: cover;
+  background-size: cover;
+  text-align: center;
+
+  h1 {
+    color: $default-light-color;
+    font-weight: 800;
+		margin: 0;
+  }
+
+  .grid-inner {
+    padding: 2em $guaranteed-edge-standoff;
+    max-width: none;
+    width: 100%;
+    @include breakpoint($breakpoint-alpha) {
+      padding: 6em $guaranteed-edge-standoff;
+    }
+  }
+}
+
+.header-introduction,
+.header-php,
+.header-javascript,
+.header-html,
+.header-css,
+.header-version-control,
+.header-markup,
+.header-tools,
+.header-migrations,
+.header-structure,
+.header-systems,
+.header-markup {
+	background-image: url("img/page-header.png");
+}

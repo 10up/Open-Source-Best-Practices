@@ -1,0 +1,19 @@
+name:          10up Open Source Best Practices
+title:         10up Open Source Best Practices
+description:   Open source best practices used by 10up.
+url:           https://10up.github.io/
+baseurl:       /Open-Source-Best-Practices
+author:
+  name:    10up
+  email:   opensource@10up.com
+  github:  10up
+  twitter: 10up
+
+markdown:      kramdown
+permalink:     pretty
+highlighter:   rouge
+encoding:      utf-8
+kramdown:
+  input: GFM
+sass:
+  sass_dir: _includes/_sass

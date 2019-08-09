@@ -1,0 +1,32 @@
+<header id="page-header" role="banner">
+	<div class="page-header-content">
+		<a href="{{ site.baseurl }}" class="logo-link">10up</a>
+		<nav class="page-nav top-nav" role="navigation" aria-label="Main navigation.">
+			<ul class="header-nav nav-dropdowns js-mobile-expandable">
+				{% assign pages_list = site.pages | sort: "weight" %}
+				{% assign group = 'navigation' %}
+				{% include Util/pages_list %}
+			</ul>
+		</nav>
+
+		<a href="https://github.com/10up/Open-Source-Best-Practices/" class="main-nav-supplemental-icon">
+			<span class="screen-reader-text">View on Github</span>
+		</a>
+		<a class="toggle-menu-icon js-mobile-expandable-toggle">
+			<span class="screen-reader-text">Toggle Main Navigation</span>
+		</a>
+
+	</div>
+</header>
+
+<header id="top" class="template-header header-{{ page.page }}">
+	<div class="grid-inner">
+		<h1>
+			{% if page.page == "introduction" %}
+				Open Source Best Practices<br>
+			{% else %}
+				{{ page.title }}
+			{% endif %}
+		</h1>
+	</div>
+</header>

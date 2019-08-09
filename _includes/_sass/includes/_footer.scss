@@ -1,0 +1,116 @@
+footer[role="contentinfo"] {
+	background-color: $color-mineshaft;
+	padding: 0 $guaranteed-edge-standoff;
+	position: relative;
+
+	a {
+		background: none;
+		transition: none;
+	}
+
+	.logo-link {
+		@extend %hide-text;
+
+		display: none;
+
+		@include breakpoint($breakpoint-alpha) {
+			@include transition(background-size, 150ms, linear);
+
+			background: $color-mineshaft url("img/10up-icon-reversed.svg") no-repeat center;
+			background-size: 42%;
+			border-top-left-radius: 100%;
+			border-top-right-radius: 100%;
+			bottom: 0;
+			display: block;
+			height: $header-logo-small;
+			left: 50%;
+			margin-left: -$header-logo-small / 2;
+			position: absolute;
+			width: $header-logo-small;
+			z-index: 10; /* So that it overlays any expanded .top-nav */
+		}
+		@include breakpoint($breakpoint-bravo) {
+			bottom: 0;
+			height: $header-logo-large;
+			margin-left: -$header-logo-large / 2;
+			width: $header-logo-large;
+		}
+	}
+
+	ul {
+		@extend %caps-text;
+		@include inline-list();
+
+		display: inline-block;
+		font-size: 12px;
+		font-weight: 600;
+		line-height: inherit;
+		margin: 0;
+		padding-right: $header-logo-large;
+		text-align: right;
+		width: 49%;
+	}
+
+	.footer-social {
+		display: inline-block;
+		font-size: 1.7rem;
+		padding-bottom: 0;
+		padding-left: $header-logo-large;
+		vertical-align: middle;
+		width: 49%;
+
+		a {
+			color: lighten($color-medium-dark, 10%);
+			padding: .5em;
+
+			&:focus,
+			&:hover {
+				color: $white;
+			}
+		}
+	}
+
+	li {
+		margin: 0 0.5em;
+
+		a {
+			color: $color-dark-text;
+			display: inline-block;
+			padding: 21px 0 18px;
+			position: relative;
+
+			&:focus,
+			&:hover {
+				text-decoration: none;
+
+				&:after {
+					@include opacity(1);
+
+					bottom: 7px;
+				}
+			}
+			@include breakpoint($breakpoint-alpha) {
+
+				&:after {
+					@include opacity(0);
+					@include transition(all, 80ms, ease-in);
+
+					-webkit-backface-visibility: hidden;
+					-moz-backface-visibility: hidden;
+					-ms-backface-visibility: hidden;
+
+					backface-visibility: hidden;
+					background: $color-dark-text;
+					bottom: 5px;
+					content: "";
+					height: 5px;
+					left: 0;
+					position: absolute;
+					width: 100%;
+				}
+			}
+		}
+
+	}
+
+}

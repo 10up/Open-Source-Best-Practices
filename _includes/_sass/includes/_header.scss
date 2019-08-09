@@ -1,0 +1,271 @@
+#page-header {
+	background-color: $color-mineshaft;
+	padding: 0 $guaranteed-edge-standoff;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+
+	body.admin-bar & {
+		top: 46px;
+
+		@include breakpoint($wpadminbar-narrow) {
+			top: 32px;
+		}
+	}
+
+	.logo-link {
+		@extend %hide-text;
+
+		background: $color-mineshaft url("img/10up-logo-full.svg") no-repeat 46% 30%;
+		background-size: 50%;
+		border-radius: 100%;
+		bottom: -$header-logo-small-protrusion;
+		height: $header-logo-small;
+		left: 50%;
+		margin-left: -$header-logo-small / 2;
+		position: absolute;
+		width: $header-logo-small;
+		z-index: 10; /* So that it overlays any expanded .top-nav */
+
+		@include breakpoint($breakpoint-bravo) {
+			background-position: 46% 50%;
+			background-size: 45%;
+			bottom: -$header-logo-large-protrusion;
+			height: $header-logo-large;
+			margin-left: -$header-logo-large / 2;
+			width: $header-logo-large;
+		}
+	}
+
+	.top-nav {
+		background-color: $color-mineshaft;
+		height: 0;
+		padding: 0;
+		position: relative;
+		top: 6rem;
+		z-index: 5; /* higher than normal so it overlays content elements */
+
+		.js-mobile-expandable {
+			display: none;
+
+			&.is-open {
+				display: block;
+
+				&:before {
+					border: 10px solid transparent;
+					border-bottom-color: $very-dark-grey;
+					content: '';
+					display: block;
+					position: absolute;
+					right: .25em;
+					top: -20px;
+				}
+			}
+		}
+
+		.header-nav {
+			background-color: $very-dark-grey;
+			text-align: right;
+
+			@include breakpoint($breakpoint-bravo) {
+				background-color: transparent;
+				display: block;
+				padding-left: 6px;
+				text-align: center;
+
+				li:nth-child(6) {
+					margin-right: 110px;
+				}
+			}
+
+			.subnav li {
+				margin-right: 0;
+				text-align: left;
+			}
+		}
+
+		@include transition(height, 150ms, linear);
+
+		@include breakpoint($breakpoint-bravo) {
+			background-color: transparent;
+			height: auto !important;
+			position: relative;
+			top: auto;
+			width: 100%;
+		}
+	}
+}
+
+.page-header-content {
+	height: 6rem;
+	position: relative;
+}
+
+// handles layout and functionality for the header menus.
+// styling the internal bits happens in components/header/...
+.toggle-menu-icon {
+	@extend %menu-icon;
+	@include icon('menu');
+
+	background-color: $almost-black;
+	background-image: none;
+	display: block;
+	font-size: 1.3rem;
+
+	@include breakpoint($breakpoint-bravo) {
+		display: none;
+	}
+
+	&:focus,
+	&:hover {
+		color: $color-accent-alternate-2;
+	}
+}
+
+.main-nav-supplemental-icon {
+	@extend %menu-icon;
+	@include icon('github');
+
+	background-color: $almost-black;
+	background-image: none;
+	display: block;
+	font-size: 1.3rem;
+	right: 2.5em;
+
+	@include breakpoint($breakpoint-bravo) {
+		right: 0;
+	}
+
+	&:visited {
+		color: $white;
+	}
+
+	&:focus,
+	&:hover {
+		color: $color-accent-alternate-2;
+	}
+}
+
+.header-nav {
+	@extend %caps-text;
+
+	color: $color-dark-text;
+	line-height: inherit;
+	margin: 0;
+	padding: 1em 0 0;
+
+	@include breakpoint($breakpoint-bravo) {
+		@include inline-list();
+
+		display: block !important;
+		padding-top: 0;
+	}
+
+	a {
+		background: none;
+		border: 0;
+		transition: none;
+	}
+
+	li {
+		list-style-type: none;
+		padding: .5em 1em;
+
+		@include breakpoint($breakpoint-bravo) {
+			margin: 0 0.3em;
+			padding: 0;
+
+			@include breakpoint($breakpoint-charlie) {
+				margin: 0 0.4em;
+			}
+		}
+
+		&:hover,
+		&:focus {
+			background-color: $color-mineshaft;
+
+			@include breakpoint($breakpoint-bravo) {
+				background-color: transparent;
+			}
+		}
+
+		&.current-menu-item > a,
+		&.current_page_parent > a {
+
+			&:after {
+				@include opacity(1);
+
+				background-color: $dark-grey;
+				bottom: 7px;
+			}
+
+			body.home &:after {
+				@include opacity(0);
+
+				bottom: 7px;
+			}
+		}
+	}
+
+	&.is-open {
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 100%;
+	}
+}
+
+.page-header-content {
+
+	li a,
+	h1 a {
+		color: $color-dark-text;
+		display: block;
+		font-size: 14px;
+		font-weight: 400;
+		padding: .8rem 0;
+
+		@include breakpoint($breakpoint-bravo) {
+			font-size: 11px;
+			padding: 21px 0;
+			position: relative;
+
+			&:focus,
+			&:hover {
+				text-decoration: none;
+
+				&:after {
+					@include opacity(1);
+
+					bottom: 7px;
+				}
+			}
+
+			&:after {
+				@include opacity(0);
+				@include transition(all, 80ms, ease-in);
+
+				-webkit-backface-visibility: hidden;
+				-moz-backface-visibility: hidden;
+				-ms-backface-visibility: hidden;
+
+				backface-visibility: hidden;
+				background: $color-dark-text;
+				bottom: 5px;
+				content: "";
+				height: 5px;
+				left: 0;
+				position: absolute;
+				width: 100%;
+			}
+
+			@include breakpoint($breakpoint-charlie) {
+				font-size: 12px;
+				font-weight: 600;
+			}
+
+		}
+	}
+
+}
