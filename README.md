@@ -1,4 +1,4 @@
-# 10up Engineering Best Practices
+# 10up Open Source Best Practices
 
 These are the official best practices for producing, releasing, and maintaining open source software at 10up. They are meant to serve to improve the quality of the experiences we create and set uniform expectation for our best collaborative work both internally and externally with the greater open source communities.
 
