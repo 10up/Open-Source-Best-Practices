@@ -35,6 +35,10 @@ All releases should follow one of two release processes we’ve crafted (see [Ad
 
 Once a release has been tagged on GitHub, include the link to the release tag in the related milestone, ensure the milestone date is accurate, move any remaining open issues or PRs from the milestone to a future milestone, remove any closed but unmerged PRs from the milestone, and then close the milestone.
 
+<h2 id="changelog" class="anchor-heading">Changelog {% include Util/link_anchor anchor="changelog" %} {% include Util/top %}</h2>
+
+We will maintain a changelog in its own CHANGELOG.md file, linked from the README.md file, and will follow the [Keep a Changelog standard](https://keepachangelog.com/en/1.0.0/).  See [Simple Local Avatars](https://github.com/10up/simple-local-avatars/blob/develop/CHANGELOG.md) for an example.
+
 <h2 id="credit-management" class="anchor-heading">Team and Credit Management {% include Util/link_anchor anchor="credit-management" %} {% include Util/top %}</h2>
 
 We should add a CREDITS.md file that lists maintainers, contributors (in chronological order of contribution), and optionally any libraries utilized by the plugin/tool (example: [Insert Special Characters](https://github.com/10up/insert-special-characters/blob/develop/CREDITS.md)).  While the concept of the [All Contributors spec](https://github.com/all-contributors/all-contributors) is nice, the implementation and layout can get a bit complex and none of our plugins/tools have a large enough contribution audience to warrant the broad [contribution types / emoji key](https://allcontributors.org/docs/en/emoji-key) used in the spec.  As such, the CREDITS.md file should be linked from the README.md file and should be laid out like this:
