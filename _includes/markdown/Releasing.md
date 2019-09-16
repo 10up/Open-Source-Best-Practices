@@ -1,6 +1,10 @@
+<h2 id="naming" class="anchor-heading">Naming {% include Util/link_anchor anchor="naming" %} {% include Util/top %}</h2>
+
+Avoid name conflicts if at all possible.  [Check for open source projects with a similar name](http://ivantomic.com/projects/ospnc/).  Make sure that the name doesn’t [infringe upon any trademarks](http://www.wipo.int/branddb/en/).  Do a Google search for your project name to ensure that something else doesn’t appear in the search results that might negatively reflect on your project.
+
 <h2 id="licensing" class="anchor-heading">Licensing {% include Util/link_anchor anchor="licensing" %} {% include Util/top %}</h2>
 
-At 10up, the vast majority of our open sourced code is released under the [MIT license](https://opensource.org/licenses/MIT), which is highly permissive and compatible with integration into GPL software such as WordPress. We recommend this route as a default but any other included libraries and integrations must also be taken into consideration before making a final licensing decision.  
+At 10up, the vast majority of our open sourced code is released under the [MIT license](https://opensource.org/licenses/MIT), which is highly permissive and compatible with integration into GPL software such as WordPress. We recommend this route as a default but any other included libraries and integrations must also be taken into consideration before making a final licensing decision.
 
 <h2 id="client-permissions" class="anchor-heading">Client permissions {% include Util/link_anchor anchor="client-permissions" %} {% include Util/top %}</h2>
 
