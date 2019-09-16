@@ -124,3 +124,29 @@ Note that we loosely monitor the WordPress.org support forums, so for more exped
 If you’re looking for help on a tight timeline or need major enhancements to <plugin-name>, then please get in touch with us via our contact form: https://10up.com/contact/.
 Thanks!`
 - Tags: contact, support, <plugin-name>
+
+<h2 id="opengraph-image" class="anchor-heading">OpenGraph image {% include Util/link_anchor anchor="opengraph-image" %} {% include Util/top %}</h2>
+
+Ensure that an appropriately sized OpenGraph image is created and [uploaded for the repository](https://github.blog/2019-04-17-custom-open-graph-images-for-repositories/) to ensure social shares best highlight our tools/plugins visually in social streams.
+
+<h2 id="dependency-management" class="anchor-heading">Dependency management {% include Util/link_anchor anchor="dependency-management" %} {% include Util/top %}</h2>
+
+All repositories will leverage [Dependabot](https://dependabot.com/) to help automate dependency management so that we are alerted as dependencies update, receive a pull request with dependency updates, and see whether dependency updates pass our automated testing or otherwise requires further code changes before updating.  Note that with [GitHub purchasing Dependabot](https://dependabot.com/blog/hello-github/), we should plan to leverage those features once they’re [integrated natively in GitHub](https://github.blog/2019-05-23-introducing-new-ways-to-keep-your-code-secure/) (unless we prioritize this more seriously and want to add the Dependabot GitHub marketplace app now).
+
+<h2 id="code-coverage" class="anchor-heading">Code coverage {% include Util/link_anchor anchor="code-coverage" %} {% include Util/top %}</h2>
+
+Every feature should be accompanied with tests and all pull requests should come with associated tests, all living within the `tests` directory.  While we have no intention of striving for 100% code coverage, we should aim for above 80% with above 90% being the ideal.  We should also utilize a code coverage / automated code review tool like [Coveralls](https://coveralls.io/), [Code Climate](https://codeclimate.com/), or [Codecov](https://codecov.io/) and ensure that is a pull request requirement before merging.
+
+<!-- @todo: add coverage badge details -->
+
+<h2 id="coding-standards" class="anchor-heading">Coding standards {% include Util/link_anchor anchor="coding-standards" %} {% include Util/top %}</h2>
+
+Like WordPress core, we should adhere to WPCS (or 10up ruleset) and WPCS VIP 2.0 and ensure that this is a pull request requirement before merging.
+
+<h2 id="continuous-integration" class="anchor-heading">Continuous integration {% include Util/link_anchor anchor="continuous-integration" %} {% include Util/top %}</h2>
+
+.travis.yml, like it, live it, love it.
+
+Changes to our projects should not cause issue with the two most recent major versions of WordPress and the lowest supported version of PHP and above.  Our CI pipelines should be testing for and alerting for any changes that do run afoul of this approach.
+
+<!-- @todo: add callout for unit tests, WP Acceptance tests, coding standards -->
