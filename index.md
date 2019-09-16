@@ -6,15 +6,15 @@ group: navigation
 weight: 1
 layout: default
 subnav:
-  - title: Audience
-    tag: audience
-  - title: Goal
-    tag: goal
-  - title: Philosophy
-    tag: philosophy
+  - title: Why OSS?
+    tag: why-oss
+  - title: OSS for Agencies
+    tag: agencies
+  - title: Open Source vs. Open Process
+    tag: process
   - title: Contributing
     tag: contributing
-updated: 9 Aug 2019
+updated: 16 Sep 2019
 ---
 
 <div class="toc">
