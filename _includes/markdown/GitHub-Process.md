@@ -60,3 +60,67 @@ Maintain documentation in the same repository as much as possible. This keeps ev
 Depending on the amount of documentation associated with your projects usage instructions, you may find that hosting them as a separate view, such as [GitHub Pages](https://pages.github.com/) or a [GitHub wiki](https://help.github.com/en/articles/about-wikis), is preferable to markdown files in a `/docs/` subfolder.  Note that if you go the GitHub Pages route, that you'll want to consider a `gh-pages` branch that deploys to your GitHub Pages site.
 
 <!-- @todo: WIKI tips: wiki repo (don’t submodule...), wiki repo strategies and examples -->
+
+<h2 id="support-levels" class="anchor-heading">Support Levels {% include Util/link_anchor anchor="support-levels" %} {% include Util/top %}</h2>
+
+The intended support level for each repository should be determined (i.e., Beta, Active, Stable, Archived) and then noted within the GitHub repository and, where applicable, within the WordPress.org repository to clearly state our intentions.  The following are recommended GitHub badges and section copy for the README.md file as well as pinned posts within the WordPress.org support forums.
+
+### Beta
+
+For repositories determined to be under `Beta` support, the following GitHub badge should be added at the top of the README.md file:
+
+`[![Support Level](https://img.shields.io/badge/support-beta-blueviolet.svg)](#support-level)`
+
+...and the following section should be added within the README.md file:
+
+`## Support Level`
+
+`**Beta:** This project is quite new and we're not sure what our ongoing support level for this will be.  Bug reports, feature requests, questions, and pull requests are welcome.  If you like this project please let us know, but be cautious using this in a Production environment!`
+
+### Active
+
+For repositories determined to be under `Active` support, the following GitHub badge should be added at the top of the README.md file:
+
+`[![Support Level](https://img.shields.io/badge/support-active-green.svg)](#support-level)`
+
+...and the following section should be added within the README.md file:
+
+`## Support Level`
+
+`**Active:** 10up is actively working on this, and we expect to continue work for the foreseeable future including keeping tested up to the most recent version of WordPress.  Bug reports, feature requests, questions, and pull requests are welcome.`
+
+### Stable
+
+For repositories determined to be under `Stable` support, the following GitHub badge should be added at the top of the README.md file:
+
+`[![Support Level](https://img.shields.io/badge/support-stable-blue.svg)](#support-level)`
+
+...and the following section should be added within the README.md file:
+
+`## Support Level`
+
+`**Stable:** 10up is not planning to develop any new features for this, but will still respond to bug reports and security concerns.  We welcome PRs, but any that include new features should be small and easy to integrate and should not include breaking changes.  We otherwise intend to keep this tested up to the most recent version of WordPress.`
+
+### Archived
+
+For repositories determined to be under `Archived` support, the following GitHub badge should be added at the top of the README.md file:
+
+`[![Support Level](https://img.shields.io/badge/support-archived-red.svg)](#support-level)`
+
+...and the following section should be added within the README.md file:
+
+`## Support Level`
+
+`**Archived:** This project is no longer maintained by 10up.  We are no longer responding to Issues or Pull Requests unless they relate to security concerns.  We encourage interested developers to fork this project and make it their own!`
+
+### WordPress.org Support Forum
+
+For projects that extend to WordPress.org, the following pinned post should be added to its Support Fourm:
+
+- Topic Title: Please read this before posting
+- Link: `https://github.com/10up/<repository-name-here>`
+- Message: `Hi there and thanks for using <plugin-name>!
+Note that we loosely monitor the WordPress.org support forums, so for more expedient support please post via our GitHub repository.  If you have a question, need support, have found a bug, or have an idea for how to enhance <plugin-name> to better meet your needs, then please use our official plugin support on GitHub: https://github.com/10up/<repository-name-here>/issues.  If you’re looking for documentation, then please read those here: https://<docs-URL>.
+If you’re looking for help on a tight timeline or need major enhancements to <plugin-name>, then please get in touch with us via our contact form: https://10up.com/contact/.
+Thanks!`
+- Tags: contact, support, <plugin-name>
