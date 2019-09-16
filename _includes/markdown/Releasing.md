@@ -28,3 +28,9 @@ This means that we’ll want the following GitHub settings:
 - Settings > Options > Data services > Security alerts
 - Settings > Security alerts > Organization and repository administrators
 - Security > Alerts > Automated security fixes
+
+<h2 id="release-process" class="anchor-heading">Release Process {% include Util/link_anchor anchor="release-process" %} {% include Util/top %}</h2>
+
+All releases should follow one of two release processes we’ve crafted (see [Ads.txt](https://github.com/10up/ads-txt/blob/develop/CONTRIBUTING.md#release-instructions) and [Distributor](https://github.com/10up/distributor/blob/develop/CONTRIBUTING.md#release-instructions)) or even more simply, leverage a GitHub Action to automate the release and deploy to WordPress.org as necessary (see [Restricted Site Access](https://github.com/10up/restricted-site-access/blob/develop/.github/main.workflow)).  If this is a major release, we should consider publishing an update post on 10up.com/blog and updating any related microsites.
+
+Once a release has been tagged on GitHub, include the link to the release tag in the related milestone, ensure the milestone date is accurate, move any remaining open issues or PRs from the milestone to a future milestone, remove any closed but unmerged PRs from the milestone, and then close the milestone.
