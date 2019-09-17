@@ -6,10 +6,6 @@
 
 **[Start reading ☞](https://10up.github.io/Open-Source-Best-Practices/)**
 
-## Contributions
-
-We don't know everything! We welcome pull requests and spirited debates :)
-
 ## Running Locally
 
 ```
