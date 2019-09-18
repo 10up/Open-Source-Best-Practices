@@ -3,7 +3,7 @@ page: github-process
 title: GitHub Process
 nav: GitHub Process
 group: navigation
-weight: 9
+weight: 5
 layout: default
 subnav:
   - title: Issue and PR labels
@@ -26,7 +26,7 @@ subnav:
     tag: coding-standards
   - title: Continuous Integration
     tag: continuous-integration
-updated: 16 September 2019
+updated: 17 September 2019
 ---
 
 <div class="docs-section">
