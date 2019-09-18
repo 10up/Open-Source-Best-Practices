@@ -10,11 +10,11 @@ At 10up, the vast majority of our open sourced code is released under the [MIT l
 
 <h2 id="client-permissions" class="anchor-heading">Client permissions {% include Util/link_anchor anchor="client-permissions" %} {% include Util/top %}</h2>
 
-Rleasing into open source code that has been developed as part of a client project can be complex. Many agency contracts (including many at 10up) define the work product as "work for hire" and grant copyright over the code produced to the client. In those cases, specific permission from the client is required in order to release any code developed on the projects governed by that contract. 
+Open-sourcing code that has been developed as part of a client project can be complex. Many agency contracts (including many at 10up) define the work product as "work for hire" and grant copyright over the code produced to the client. In those cases, specific permission from the client is required in order to release any code developed on the projects governed by that contract. 
 
-That said, clients benefit as much as anyone (perhaps even more than anyone) when functionality developed as a part of their project can be released into open source or contributed back to the projects which it extends or builds upon. They get the benefit of ongoing community contribution, testing, and maintenance, and don't have to shoulder the maintenance of that new plugin or feature themselves. 
+That said, clients benefit as much as anyone (perhaps even more than anyone) when functionality developed as a part of their project can be released into open source or contributed back to the projects which it extends or builds upon. They get the benefit of ongoing community contribution, testing, and maintenance, and don't have to shoulder the maintenance of that new plugin or feature themselves.
 
-If you have identified code developed as part of a client project that would make an ideal contribution to an existing open source project or an open source release of its own, work with your account manager to specifically identify the need for and obtain client permission. 
+If you have identified code developed as part of a client project that would make an ideal contribution to an existing open source project or an open source release of its own, work with your account manager to specifically identify the need for and obtain client permission.
 
 In order to be publicly open sourced, all new plugins should have Gutenberg support and must conform with the [WCAG 2.0 guidelines at level AA](https://www.w3.org/TR/WCAG20/).
 
