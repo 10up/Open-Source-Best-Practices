@@ -3,7 +3,7 @@ page: community
 title: Community
 nav: Community
 group: navigation
-weight: 6
+weight: 4
 layout: default
 subnav:
   - title: Readme
@@ -12,7 +12,7 @@ subnav:
     tag: code-of-conduct
   - title: Contributing
     tag: contributing
-updated: 16 September 2019
+updated: 17 September 2019
 ---
 
 <div class="docs-section">

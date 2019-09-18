@@ -3,7 +3,7 @@ page: releasing
 title: Releasing Code
 nav: Releasing
 group: navigation
-weight: 4
+weight: 2
 layout: default
 subnav:
   - title: Naming
@@ -24,7 +24,7 @@ subnav:
     tag: changelog
   - title: Team and Credit Management
     tag: credit-management
-updated: 16 September 2019
+updated: 17 September 2019
 ---
 
 <div class="docs-section">

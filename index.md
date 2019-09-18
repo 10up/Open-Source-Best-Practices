@@ -43,17 +43,17 @@ updated: 16 Sep 2019
 			<li><a href="{{ site.baseurl }}/releasing/#security">Security</a></li>
 			<li><a href="{{ site.baseurl }}/releasing/#release-process">Release Process</a></li>
 			<li><a href="{{ site.baseurl }}/releasing/#changelog">Changelog</a></li>
-			<li><a href="{{ site.baseurl }}/releasing/#credit-management">Team and Credit Management</a></li>
+			<li><a href="{{ site.baseurl }}/releasing/#credit-management">Credit Management</a></li>
 		</ul>
 	</div>
 
 	<div class="col">
   		<h3><a href="{{ site.baseurl }}/maintaining/#top">Maintenance Process</a></h3>
 		<ul>
-			<li><a href="{{ site.baseurl }}/maintaining/#issue-pr-mgmt">Issue and Pull Request Management</a></li>
+			<li><a href="{{ site.baseurl }}/maintaining/#issue-pr-mgmt">Issue and PR Management</a></li>
 			<li><a href="{{ site.baseurl }}/maintaining/#dotorg-support-reps">WordPress.org Support Reps</a></li>
-			<li><a href="{{ site.baseurl }}/maintaining/#slack-channel-github-activity">Slack channel to track GitHub activity</a></li>
-			<li><a href="{{ site.baseurl }}/maintaining/#dslack-channel-dotorg-activity">Slack channel to track WordPress.org plugin support/forum activity</a></li>
+			<li><a href="{{ site.baseurl }}/maintaining/#slack-channel-github-activity">Tracking GitHub activity</a></li>
+			<li><a href="{{ site.baseurl }}/maintaining/#dslack-channel-dotorg-activity">Tracking WordPress.org activity</a></li>
 		</ul>
   	</div>
 
