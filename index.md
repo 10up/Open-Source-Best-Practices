@@ -6,15 +6,15 @@ group: navigation
 weight: 1
 layout: default
 subnav:
-  - title: Audience
-    tag: audience
-  - title: Goal
-    tag: goal
-  - title: Philosophy
-    tag: philosophy
+  - title: Why OSS?
+    tag: why-oss
+  - title: OSS for Agencies
+    tag: agencies
+  - title: Open Source vs. Open Process
+    tag: process
   - title: Contributing
     tag: contributing
-updated: 9 Aug 2019
+updated: 16 Sep 2019
 ---
 
 <div class="toc">
@@ -32,20 +32,29 @@ updated: 9 Aug 2019
 		</ul>
 	</div>
 
-    <div class="col">
+    	<div class="col">
 		<h3><a href="{{ site.baseurl }}/releasing/#top">Releasing Code</a></h3>
 		<ul>
+			<li><a href="{{ site.baseurl }}/releasing/#naming">Naming</a></li>
 			<li><a href="{{ site.baseurl }}/releasing/#licensing">Licensing</a></li>
 			<li><a href="{{ site.baseurl }}/releasing/#client-permissions">Client Permissions</a></li>
 			<li><a href="{{ site.baseurl }}/releasing/#choosing-tools">Choosing Tools</a></li>
 			<li><a href="{{ site.baseurl }}/releasing/#accessibility">Accessibility</a></li>
 			<li><a href="{{ site.baseurl }}/releasing/#security">Security</a></li>
 			<li><a href="{{ site.baseurl }}/releasing/#release-process">Release Process</a></li>
+			<li><a href="{{ site.baseurl }}/releasing/#changelog">Changelog</a></li>
+			<li><a href="{{ site.baseurl }}/releasing/#credit-management">Team and Credit Management</a></li>
 		</ul>
 	</div>
 
-	    <div class="col">
+	<div class="col">
   		<h3><a href="{{ site.baseurl }}/maintaining/#top">Maintenance Process</a></h3>
+		<ul>
+			<li><a href="{{ site.baseurl }}/maintaining/#issue-pr-mgmt">Issue and Pull Request Management</a></li>
+			<li><a href="{{ site.baseurl }}/maintaining/#dotorg-support-reps">WordPress.org Support Reps</a></li>
+			<li><a href="{{ site.baseurl }}/maintaining/#slack-channel-github-activity">Slack channel to track GitHub activity</a></li>
+			<li><a href="{{ site.baseurl }}/maintaining/#dslack-channel-dotorg-activity">Slack channel to track WordPress.org plugin support/forum activity</a></li>
+		</ul>
   	</div>
 
 	<div class="col">
@@ -53,7 +62,7 @@ updated: 9 Aug 2019
 		<ul>
 			<li><a href="{{ site.baseurl }}/community/#readme">Readme</a></li>
 			<li><a href="{{ site.baseurl }}/community/#code-of-conduct">Code of Conduct</a></li>
-			<li><a href="{{ site.baseurl }}/community/#contributing-guidelines">Contributing Guidelines</a></li>
+			<li><a href="{{ site.baseurl }}/community/#contributing">Contributing</a></li>
 		</ul>
 	</div>
 
@@ -67,6 +76,18 @@ updated: 9 Aug 2019
 
 	<div class="col">
 		<h3><a href="{{ site.baseurl }}/github-process/#top">GitHub Process</a></h3>
+		<ul>
+			<li><a href="{{ site.baseurl }}/github-process/#issue-pr-labels">Issue and PR labels</a></li>
+			<li><a href="{{ site.baseurl }}/github-process/#milestones">Milestones</a></li>
+			<li><a href="{{ site.baseurl }}/github-process/#branching-merging-deploying">Branching, Merging, and Deploying</a></li>
+			<li><a href="{{ site.baseurl }}/github-process/#documentation">Documentation</a></li>
+			<li><a href="{{ site.baseurl }}/github-process/#support-levels">Support Levels</a></li>
+			<li><a href="{{ site.baseurl }}/github-process/#opengraph-image">OpenGraph Image</a></li>
+			<li><a href="{{ site.baseurl }}/github-process/#dependency-management">Dependency Management</a></li>
+			<li><a href="{{ site.baseurl }}/github-process/#code-coverage">Code Coverage</a></li>
+			<li><a href="{{ site.baseurl }}/github-process/#coding-standards">Coding Standards</a></li>
+			<li><a href="{{ site.baseurl }}/github-process/#continuous-integration">Continuous Integration</a></li>
+		</ul>
 	</div>
 </div>
 
