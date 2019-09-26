@@ -6,7 +6,7 @@ Aim for conceptual clarity over cleverness and puns. Creativity is good, but a n
 
 <h2 id="licensing" class="anchor-heading">Licensing {% include Util/link_anchor anchor="licensing" %} {% include Util/top %}</h2>
 
-At 10up, the vast majority of our open sourced code is released under the [MIT license](https://opensource.org/licenses/MIT), which is highly permissive and compatible with integration into GPL software such as WordPress. We recommend this route as a default but any other included libraries and integrations must also be taken into consideration before making a final licensing decision.
+At 10up, any project that is a WordPress plugin or theme should be licensed [GPLv2](https://opensource.org/licenses/GPL-2.0).  Standalone JavaScript libraries or modules can be licensed [MIT](https://opensource.org/licenses/MIT).  We recommend this route as a default, but any other included libraries and integrations must also be taken into consideration before making a final licensing decision.
 
 <h2 id="client-permissions" class="anchor-heading">Client permissions {% include Util/link_anchor anchor="client-permissions" %} {% include Util/top %}</h2>
 
