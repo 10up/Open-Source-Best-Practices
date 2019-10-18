@@ -1,4 +1,5 @@
 .template-header {
+	background-image: url("img/page-header.png");
   -webkit-background-size: cover;
   background-size: cover;
   text-align: center;
@@ -17,8 +18,4 @@
       padding: 6em $guaranteed-edge-standoff;
     }
   }
-}
-
-.template-header {
-	background-image: url("img/page-header.png");
 }
