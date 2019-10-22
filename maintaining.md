@@ -14,7 +14,9 @@ subnav:
     tag: slack-channel-github-activity
   - title: Tracking WordPress.org activity
     tag: slack-channel-dotorg-activity
-updated: 17 September 2019
+  - title: Version Control
+    tag: version-control
+updated: 22 October 2019
 ---
 
 <div class="docs-section">
