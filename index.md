@@ -54,6 +54,7 @@ updated: 16 Sep 2019
 			<li><a href="{{ site.baseurl }}/maintaining/#dotorg-support-reps">WordPress.org Support Reps</a></li>
 			<li><a href="{{ site.baseurl }}/maintaining/#slack-channel-github-activity">Tracking GitHub activity</a></li>
 			<li><a href="{{ site.baseurl }}/maintaining/#dslack-channel-dotorg-activity">Tracking WordPress.org activity</a></li>
+			<li><a href="{{ site.baseurl }}/maintaining/#version-control">Version Control</a></li>
 		</ul>
   	</div>
 
