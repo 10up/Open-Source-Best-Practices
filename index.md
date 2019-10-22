@@ -67,14 +67,6 @@ updated: 16 Sep 2019
 	</div>
 
 	<div class="col">
-		<h3><a href="{{ site.baseurl }}/version-control/#top">Version Control</a></h3>
-		<ul>
-			<li><a href="{{ site.baseurl }}/version-control/#structure">Structure</a></li>
-			<li><a href="{{ site.baseurl }}/version-control/#workflows">Workflows</a></li>
-		</ul>
-	</div>
-
-	<div class="col">
 		<h3><a href="{{ site.baseurl }}/github-process/#top">GitHub Process</a></h3>
 		<ul>
 			<li><a href="{{ site.baseurl }}/github-process/#issue-pr-labels">Issue and PR labels</a></li>
