@@ -28,8 +28,7 @@ This is an optional section, but should include simple screenshots and basic ins
 
 #### Support Level
 
-<!-- @todo: needs proper link on "Support Levels" -->
-Check the “Support Levels” section for details on what to include here.
+Check the “[Support Levels](https://10up.github.io/Open-Source-Best-Practices/github-process/#support-levels)” section for details on what to include here.
 
 #### Known Caveats / Issues
 
