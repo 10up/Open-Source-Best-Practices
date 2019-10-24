@@ -1,7 +1,8 @@
 Central to a successful open process are setting expectations and respecting the time of other participants, especially when they are volunteers.
 
-<!-- @todo: add additional, missing? bullets here-->
-- Be thankful and specific when including participants, whether that is…?
+- Including a [CONTRIBUTING.md file](https://10up.github.io/Open-Source-Best-Practices/community/#contributing) outlining ways to contribute to a project helps non-maintainers understand how best to contribute.
+- Be thankful and specific when including participants, whether that is thanking them for a well-defined issue, a pull request they've opened, as well as including them in [changelog release notes](https://10up.github.io/Open-Source-Best-Practices/releasing/#changelog) and the [CREDITS.md file](https://10up.github.io/Open-Source-Best-Practices/releasing/#credit-management).
+- Recognize that just because someone opened an issue or pull request doesn't mean they have additional time to continue triaging an issue or updating their pull request from code review / feedback so you may need to pick up and cover those yourself.
 
 <h2 id="issue-pr-mgmt" class="anchor-heading">Issue and Pull Request Management {% include Util/link_anchor anchor="issue-pr-mgmt" %} {% include Util/top %}</h2>
 
