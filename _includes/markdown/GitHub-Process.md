@@ -39,11 +39,11 @@ This means that we’ll want the following GitHub settings:
 - Settings > Options > Merge button: Allow squash merging
 - Settings > Options > Merge button: Allow rebase merging
 
-![](img/github-settings-branches.png)
+![](../../img/github-settings-branches.png)
 - Settings > Branches > Default branch: `develop`
 - Settings > Branches > Branch protection rules > `master` ...AND… `develop`:
 
-![](img/github-settings-branch-protection-rule-settings.png)
+![](../../img/github-settings-branch-protection-rule-settings.png)
   - Require pull request reviews before merging
     - Required approving reviews: 1
     - Dismiss stale pull request approvals when new commits are pushed
