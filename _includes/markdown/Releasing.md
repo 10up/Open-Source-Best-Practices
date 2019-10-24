@@ -47,7 +47,7 @@ Once a release has been tagged on GitHub, include the link to the release tag in
 
 <h2 id="changelog" class="anchor-heading">Changelog {% include Util/link_anchor anchor="changelog" %} {% include Util/top %}</h2>
 
-We will maintain a changelog in its own CHANGELOG.md file, linked from the README.md file, and will follow the [Keep a Changelog standard](https://keepachangelog.com/en/1.0.0/).  See [Simple Local Avatars](https://github.com/10up/simple-local-avatars/blob/develop/CHANGELOG.md) for an example.  When building a changelog for a release, append any props to properly credit individuals who contributed to each item (see [ClassifAI example](https://github.com/10up/classifai/blob/develop/CHANGELOG.md#140---tbd)).
+We will maintain a changelog in its own CHANGELOG.md file, linked from the README.md file, and will follow the [Keep a Changelog standard](https://keepachangelog.com/en/1.0.0/).  See [Simple Local Avatars](https://github.com/10up/simple-local-avatars/blob/develop/CHANGELOG.md) for an example.  When building a changelog for a release, append any props to properly credit individuals who contributed to each item (see [ClassifAI example](https://github.com/10up/classifai/blob/develop/CHANGELOG.md#140---2019-09-26)).
 
 <h2 id="credit-management" class="anchor-heading">Team and Credit Management {% include Util/link_anchor anchor="credit-management" %} {% include Util/top %}</h2>
 
