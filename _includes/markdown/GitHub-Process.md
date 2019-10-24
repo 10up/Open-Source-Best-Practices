@@ -34,16 +34,16 @@ All repositories should also have at least one numbered milestone available that
 Each repository should have a `master` and `develop` branch with `develop` being the default branch.  [Branching and Deploying should follow the processes outlined in the Engineering Best Practices for plugins](https://10up.github.io/Engineering-Best-Practices/version-control/#plugins).  Similarly, we should [protect the `master` branch as outlined in the Engineering Best Practices](https://10up.github.io/Engineering-Best-Practices/version-control/#protecting-the-master-branch).  Merges should be handled as [non-fast-forwards merges as outlined in the Engineering Best Practices](https://10up.github.io/Engineering-Best-Practices/version-control/#merges) and not squash merges so that the `master` branch maintains full commit and code author history, this is done for transparency and to honor all contributions to our open source work.
 This means that we’ll want the following GitHub settings:
 
-![](img/github-settings-options-merge-button.png)
+![](../../img/github-settings-options-merge-button.png)
 - Settings > Options > Merge button: Allow merge commits
 - Settings > Options > Merge button: Allow squash merging
 - Settings > Options > Merge button: Allow rebase merging
 
-![](img/github-settings-branches.png)
+![](../../img/github-settings-branches.png)
 - Settings > Branches > Default branch: `develop`
 - Settings > Branches > Branch protection rules > `master` ...AND… `develop`:
 
-![](img/github-settings-branch-protection-rule-settings.png)
+![](../../img/github-settings-branch-protection-rule-settings.png)
   - Require pull request reviews before merging
     - Required approving reviews: 1
     - Dismiss stale pull request approvals when new commits are pushed
