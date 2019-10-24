@@ -10,7 +10,7 @@ At 10up, any project that is a WordPress plugin or theme should be licensed [GPL
 
 <h2 id="client-permissions" class="anchor-heading">Client permissions {% include Util/link_anchor anchor="client-permissions" %} {% include Util/top %}</h2>
 
-Open-sourcing code that has been developed as part of a client project can be complex. Many agency contracts (including many at 10up) define the work product as "work for hire" and grant copyright over the code produced to the client. In those cases, specific permission from the client is required in order to release any code developed on the projects governed by that contract. 
+Open-sourcing code that has been developed as part of a client project can be complex. Many agency contracts (including many at 10up) define the work product as "work for hire" and grant copyright over the code produced to the client. In those cases, specific permission from the client is required in order to release any code developed on the projects governed by that contract.
 
 That said, clients benefit as much as anyone (perhaps even more than anyone) when functionality developed as a part of their project can be released into open source or contributed back to the projects which it extends or builds upon. They get the benefit of ongoing community contribution, testing, and maintenance, and don't have to shoulder the maintenance of that new plugin or feature themselves.
 
