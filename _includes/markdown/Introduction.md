@@ -25,4 +25,4 @@ Pushing some code up to GitHub and calling it a day may qualify as open source, 
 
 <h2 id="process" class="anchor-heading">Contributing to this guide {% include Util/link_anchor anchor="contributing" %} {% include Util/top %}</h2>
 
-Please review our [Contributing guidelines](https://github.com/10up/Open-Source-Best-Practices/blob/master/CONTRIBUTING.md) for details on the process for submitting pull requests to this project.
+Please review our [Contributing guidelines](https://github.com/10up/Open-Source-Best-Practices/blob/master/CONTRIBUTING.md) for details on the process for submitting pull requests to this guide.
