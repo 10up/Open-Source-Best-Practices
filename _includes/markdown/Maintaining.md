@@ -1,7 +1,8 @@
 Central to a successful open process are setting expectations and respecting the time of other participants, especially when they are volunteers.
 
-<!-- @todo: add additional, missing? bullets here-->
-- Be thankful and specific when including participants, whether that is…?
+- Including a [CONTRIBUTING.md file](https://10up.github.io/Open-Source-Best-Practices/community/#contributing) outlining ways to contribute to a project helps non-maintainers understand how best to contribute.
+- Be thankful and specific when including participants, whether that is thanking them for a well-defined issue, a pull request they've opened, as well as including them in [changelog release notes](https://10up.github.io/Open-Source-Best-Practices/releasing/#changelog) and the [CREDITS.md file](https://10up.github.io/Open-Source-Best-Practices/releasing/#credit-management).
+- Recognize that just because someone opened an issue or pull request doesn't mean they have additional time to continue triaging an issue or updating their pull request from code review / feedback so you may need to pick up and cover those yourself.
 
 <h2 id="issue-pr-mgmt" class="anchor-heading">Issue and Pull Request Management {% include Util/link_anchor anchor="issue-pr-mgmt" %} {% include Util/top %}</h2>
 
@@ -28,3 +29,7 @@ In the scenario where your organization utilizes GitHub for code and Slack for c
 <h2 id="slack-channel-dotorg-activity" class="anchor-heading">Slack channel to track WordPress.org plugin support/forum activity {% include Util/link_anchor anchor="slack-channel-dotorg-activity" %}</h2>
 
 In the scenario where your organization utilizes GitHub for code and publishes code to the WordPress.org repository, then integrating the two seems reasonable.  In this case, then we recommend setting up a dedicated channel to track activity across your suite of plugins and themes using the [RSS Feeds functionality](https://get.slack.help/hc/en-us/articles/218688467-Add-RSS-feeds-to-Slack).  More specifically, you’ll want to pull up your Support page ([plugin example](https://wordpress.org/support/plugin/elasticpress/), [theme example](https://wordpress.org/support/theme/twentynineteen/)) and Review page ([plugin example](https://wordpress.org/plugins/elasticpress/#reviews), [theme example](https://wordpress.org/support/theme/twentynineteen/reviews/)) and then add /feed/ to the end of the URL that you utilize for the RSS Feed subscription ([Support example](https://wordpress.org/support/plugin/elaticpress/feed/), [Review example](https://wordpress.org/support/plugin/elasticpress/reviews/feed/)).  Once RSS feeds are setup, we also recommend utilizing a specific [Slack emoji reaction](https://get.slack.help/hc/en-us/articles/206870317-Emoji-reactions) to note that someone from your team will take responsibility for that specific post ([example](https://emojipedia.org/pushpin/)).
+
+<h2 id="version-control" class="anchor-heading">Version Control {% include Util/link_anchor anchor="version-control" %}</h2>
+
+In general we follow the [Version Control guidelines from the 10up Engineering Best Practices](https://10up.github.io/Engineering-Best-Practices/version-control/#top) including the approaches for [structure](https://10up.github.io/Engineering-Best-Practices/version-control/#structure-package-management) and [workflows](https://10up.github.io/Engineering-Best-Practices/version-control/#workflows).
