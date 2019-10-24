@@ -28,8 +28,7 @@ This is an optional section, but should include simple screenshots and basic ins
 
 #### Support Level
 
-<!-- @todo: needs proper link on "Support Levels" -->
-Check the “Support Levels” section for details on what to include here.
+Check the [Support Levels](https://10up.github.io/Open-Source-Best-Practices/github-process/#support-levels) section for details on what to include here.
 
 #### Known Caveats / Issues
 
@@ -37,7 +36,7 @@ This is an optional section, but should include any issues, bugs, or things to n
 
 #### Changelog
 
-<!-- @todo: add details for this section-->
+This is a required section, should link out to the respective CHANGELOG.md file, and should follow our documented approach within the CHANGELOG.md file as noted in the [Releasing Code section](https://10up.github.io/Open-Source-Best-Practices/releasing/#changelog).  See [ClassifAI](https://github.com/10up/classifai#changelog) as an example.
 
 #### Contributing
 
