@@ -23,6 +23,6 @@ Potential clients feel confident that you know what you’re doing and can guide
 
 Pushing some code up to GitHub and calling it a day may qualify as open source, but at the heart of this guide is the open process associated with effective open source stewardship. This is everything from being mindful about licensing to defining maintenance procedures to proactive communication with all participants. Please see the [Maintenance Process]({{ site.baseurl }}/maintaining/#top) section for more on how to approach open source software with an open process.
 
-<h2 id="process" class="anchor-heading">Contributing to this project {% include Util/link_anchor anchor="contributing" %} {% include Util/top %}</h2>
+<h2 id="process" class="anchor-heading">Contributing to this guide {% include Util/link_anchor anchor="contributing" %} {% include Util/top %}</h2>
 
 Please review our [Contributing guidelines](https://github.com/10up/Open-Source-Best-Practices/blob/master/CONTRIBUTING.md) for details on the process for submitting pull requests to this project.
