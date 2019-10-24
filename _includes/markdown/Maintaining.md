@@ -1,7 +1,8 @@
 Central to a successful open process are setting expectations and respecting the time of other participants, especially when they are volunteers.
 
-<!-- @todo: add additional, missing? bullets here-->
-- Be thankful and specific when including participants, whether that is…?
+- Including a [CONTRIBUTING.md file](https://10up.github.io/Open-Source-Best-Practices/community/#contributing) outlining ways to contribute to a project helps non-maintainers understand how best to contribute.
+- Be thankful and specific when including participants, whether that is thanking them for a well-defined issue, a pull request they've opened, as well as including them in [changelog release notes](https://10up.github.io/Open-Source-Best-Practices/releasing/#changelog) and the [CREDITS.md file](https://10up.github.io/Open-Source-Best-Practices/releasing/#credit-management).
+- Recognize that just because someone opened an issue or pull request doesn't mean they have additional time to continue triaging an issue or updating their pull request from code review / feedback so you may need to pick up and cover those yourself.
 
 <h2 id="issue-pr-mgmt" class="anchor-heading">Issue and Pull Request Management {% include Util/link_anchor anchor="issue-pr-mgmt" %} {% include Util/top %}</h2>
 
@@ -9,12 +10,13 @@ In the [2017 Open Source Survey conducted by GitHub](https://opensourcesurvey.or
 
 We have setup default [Issue](https://github.com/10up/.github/tree/master/ISSUE_TEMPLATE) and [Pull Request](https://github.com/10up/.github/blob/master/PULL_REQUEST_TEMPLATE.md) Templates in the [10up .github repository](https://github.com/10up/.github), so feel free to just utilize those or create custom ones for your repository (example: [ClassifAI](https://github.com/10up/classifai/tree/develop/.github)).
 
-Issue triage will primarily be handled by our Open Source Leadership, but in order to ensure we reply to all issues and pull requests within five business days others within 10up are welcome to assist with triage.  We ask that as you review issues and pull requests that you consider the following:
+Issue triage will primarily be handled by our Open Source Practice leadership as well as Maintainers for each project, but in order to ensure we reply to all issues and pull requests within five business days others within 10up are welcome to assist with triage.  We ask that as you review issues and pull requests that you consider the following:
 
-<!-- @todo: add additional considerations here-->
 - When someone new lands on your project, thank them for their interest!
-- ...for .org support requests, (“thanks for report…”), moving forum report to GH...
-- ...
+- Utilize our 10up Saved Replies (_@todo: link needed_) to quickly respond to standard requests.
+- Apply labels to ensure others who review issues and pull requests after you can benefit from your initial triage.
+- If a pull request hasn't been linked to an existing issue, please add a comment to link them.
+- As issues come in via WordPress.org support requests, respond with a “thanks for report…”, let them know you're moving the forum report to GitHub, and then provide them the link to the newly opened GitHub issue.
 
 <h2 id="dotorg-support-reps" class="anchor-heading">WordPress.org Support Reps {% include Util/link_anchor anchor="dotorg-support-reps" %} {% include Util/top %}</h2>
 

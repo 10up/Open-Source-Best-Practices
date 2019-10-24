@@ -10,7 +10,7 @@ At 10up, any project that is a WordPress plugin or theme should be licensed [GPL
 
 <h2 id="client-permissions" class="anchor-heading">Client permissions {% include Util/link_anchor anchor="client-permissions" %} {% include Util/top %}</h2>
 
-Open-sourcing code that has been developed as part of a client project can be complex. Many agency contracts (including many at 10up) define the work product as "work for hire" and grant copyright over the code produced to the client. In those cases, specific permission from the client is required in order to release any code developed on the projects governed by that contract. 
+Open-sourcing code that has been developed as part of a client project can be complex. Many agency contracts (including many at 10up) define the work product as "work for hire" and grant copyright over the code produced to the client. In those cases, specific permission from the client is required in order to release any code developed on the projects governed by that contract.
 
 That said, clients benefit as much as anyone (perhaps even more than anyone) when functionality developed as a part of their project can be released into open source or contributed back to the projects which it extends or builds upon. They get the benefit of ongoing community contribution, testing, and maintenance, and don't have to shoulder the maintenance of that new plugin or feature themselves.
 
@@ -47,7 +47,7 @@ Once a release has been tagged on GitHub, include the link to the release tag in
 
 <h2 id="changelog" class="anchor-heading">Changelog {% include Util/link_anchor anchor="changelog" %} {% include Util/top %}</h2>
 
-We will maintain a changelog in its own CHANGELOG.md file, linked from the [README.md file](https://10up.github.io/Open-Source-Best-Practices/community/#readme), follows the [Keep a Changelog standard](https://keepachangelog.com/en/1.0.0/), and adheres to [Semantic Versioning](http://semver.org/) as described in the [10up Engineering Best Practices](https://10up.github.io/Engineering-Best-Practices/version-control/#workflows).  See [Restricted Site Access](https://github.com/10up/restricted-site-access/blob/develop/CHANGELOG.md) and [Simple Local Avatars](https://github.com/10up/simple-local-avatars/blob/develop/CHANGELOG.md) as an example.
+We will maintain a changelog in its own CHANGELOG.md file, linked from the [README.md file](https://10up.github.io/Open-Source-Best-Practices/community/#readme), follows the [Keep a Changelog standard](https://keepachangelog.com/en/1.0.0/), and adheres to [Semantic Versioning](http://semver.org/) as described in the [10up Engineering Best Practices](https://10up.github.io/Engineering-Best-Practices/version-control/#workflows).  See [Restricted Site Access](https://github.com/10up/restricted-site-access/blob/develop/CHANGELOG.md) and [Simple Local Avatars](https://github.com/10up/simple-local-avatars/blob/develop/CHANGELOG.md) as an example.  When building a changelog for a release, append any props to properly credit individuals who contributed to each item (see [ClassifAI example](https://github.com/10up/classifai/blob/develop/CHANGELOG.md#140---2019-09-26)).
 
 <h2 id="credit-management" class="anchor-heading">Team and Credit Management {% include Util/link_anchor anchor="credit-management" %} {% include Util/top %}</h2>
 
