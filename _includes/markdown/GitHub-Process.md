@@ -50,7 +50,7 @@ This means that we’ll want the following GitHub settings:
     - [DISABLE] Require review from Code Owners
     - [DISABLE] Restrict who can dismiss pull request reviews
   - Require status checks to pass before merging
-    - Require branches to be up to date before merging
+    - [DISABLE] Require branches to be up to date before merging
     - Travis CI - Branch (this or option below)
     - continuous-integration/travis-ci (this or option above)
   - [DISABLE] Require signed commits
