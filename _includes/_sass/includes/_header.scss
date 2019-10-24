@@ -74,8 +74,16 @@
 				padding-left: 6px;
 				text-align: center;
 
-				li:nth-child(6) {
-					margin-right: 110px;
+				li:first-child {
+					margin-left: -15px;
+				}
+
+				li:nth-of-type(3) {
+					margin-right: 50px;
+				}
+
+				li:nth-of-type(4) {
+					margin-left: 45px;
 				}
 			}
 
