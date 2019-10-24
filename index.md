@@ -12,7 +12,7 @@ subnav:
     tag: agencies
   - title: Open Source vs. Open Process
     tag: process
-  - title: Contributing
+  - title: Contributing to this project
     tag: contributing
 updated: 16 Sep 2019
 ---
@@ -28,7 +28,7 @@ updated: 16 Sep 2019
 			<li><a href="{{ site.baseurl }}#why-oss">Why OSS?</a></li>
 			<li><a href="{{ site.baseurl }}#agencies">OSS for Agencies</a></li>
 			<li><a href="{{ site.baseurl }}#process">Open Source vs. Open Process</a></li>
-			<li><a href="{{ site.baseurl }}#contributing">Contributing</a></li>
+			<li><a href="{{ site.baseurl }}#contributing">Contributing to this project</a></li>
 		</ul>
 	</div>
 
@@ -62,7 +62,7 @@ updated: 16 Sep 2019
 		<ul>
 			<li><a href="{{ site.baseurl }}/community/#readme">Readme</a></li>
 			<li><a href="{{ site.baseurl }}/community/#code-of-conduct">Code of Conduct</a></li>
-			<li><a href="{{ site.baseurl }}/community/#contributing">Contributing</a></li>
+			<li><a href="{{ site.baseurl }}/community/#contributing">Contributing to Open Source</a></li>
 		</ul>
 	</div>
 
