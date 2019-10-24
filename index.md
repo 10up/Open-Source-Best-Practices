@@ -54,6 +54,7 @@ updated: 24 October 2019
 			<li><a href="{{ site.baseurl }}/maintaining/#dotorg-support-reps">WordPress.org Support Reps</a></li>
 			<li><a href="{{ site.baseurl }}/maintaining/#slack-channel-github-activity">Tracking GitHub activity</a></li>
 			<li><a href="{{ site.baseurl }}/maintaining/#dslack-channel-dotorg-activity">Tracking WordPress.org activity</a></li>
+			<li><a href="{{ site.baseurl }}/maintaining/#version-control">Version Control</a></li>
 		</ul>
   	</div>
 
@@ -63,14 +64,6 @@ updated: 24 October 2019
 			<li><a href="{{ site.baseurl }}/community/#readme">Readme</a></li>
 			<li><a href="{{ site.baseurl }}/community/#code-of-conduct">Code of Conduct</a></li>
 			<li><a href="{{ site.baseurl }}/community/#contributing">Contributing to Open Source</a></li>
-		</ul>
-	</div>
-
-	<div class="col">
-		<h3><a href="{{ site.baseurl }}/version-control/#top">Version Control</a></h3>
-		<ul>
-			<li><a href="{{ site.baseurl }}/version-control/#structure">Structure</a></li>
-			<li><a href="{{ site.baseurl }}/version-control/#workflows">Workflows</a></li>
 		</ul>
 	</div>
 

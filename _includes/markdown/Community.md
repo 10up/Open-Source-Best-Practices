@@ -28,8 +28,7 @@ This is an optional section, but should include simple screenshots and basic ins
 
 #### Support Level
 
-<!-- @todo: needs proper link on "Support Levels" -->
-Check the “Support Levels” section for details on what to include here.
+Check the [Support Levels](https://10up.github.io/Open-Source-Best-Practices/github-process/#support-levels) section for details on what to include here.
 
 #### Known Caveats / Issues
 
@@ -37,7 +36,7 @@ This is an optional section, but should include any issues, bugs, or things to n
 
 #### Changelog
 
-<!-- @todo: add details for this section-->
+This is a required section, should link out to the respective CHANGELOG.md file, and should follow our documented approach within the CHANGELOG.md file as noted in the [Releasing Code section](https://10up.github.io/Open-Source-Best-Practices/releasing/#changelog).  See [ClassifAI](https://github.com/10up/classifai#changelog) as an example.
 
 #### Contributing
 
@@ -49,7 +48,7 @@ At the end of the README should be the standard 10up Hiring promotion image with
 
 <h2 id="code-of-conduct" class="anchor-heading">Code of Conduct {% include Util/link_anchor anchor="code-of-conduct" %} {% include Util/top %}</h2>
 
-@todo
+10up has standardized to the Contributor Covenant version of a Code of Conduct file, currently [version 1.4](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html).  We also utilize the community-wide community health file functionality from GitHub, so any project that doesn't include it's own CODE_OF_CONDUCT.md file will inherit the [default 10up version](https://github.com/10up/.github/blob/master/CODE_OF_CONDUCT.md).  Projects may chose to include their own version of the Contributor Covenant CODE_OF_CONDUCT.md or rely upon the 10up default version.
 
 <h2 id="contributing" class="anchor-heading">Contributing {% include Util/link_anchor anchor="contributing" %} {% include Util/top %}</h2>
 
