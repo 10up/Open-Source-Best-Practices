@@ -15,11 +15,11 @@ bundle exec jekyll serve
 
 ## Support Level
 
-**Active:** 10up is actively working on this, and we expect to continue work for the foreseeable future including keeping tested up to the most recent version of WordPress.  Bug reports, feature requests, questions, and pull requests are welcome.
+**Active:** 10up is actively working on this, and we expect to continue work for the foreseeable future.  Bug reports, feature requests, questions, and pull requests are welcome.
 
 ## Contributing
 
-Please read [CODE_OF_CONDUCT.md](https://github.com/10up/Open-Source-Best-Practices/blob/master/CODE_OF_CONDUCT.md) for details on our code of conduct, [CONTRIBUTING.md](https://github.com/10up/Open-Source-Best-Practices/blob/master/CONTRIBUTING.md) for details on the process for submitting pull requests to us, and [CREDITS.md](https://github.com/10up/Open-Source-Best-Practices/blob/develop/CREDITS.md) for a listing of maintainers of, contributors to, and references used by our Open Source Best Practices.
+Please read [CODE_OF_CONDUCT.md](https://github.com/10up/Open-Source-Best-Practices/blob/master/CODE_OF_CONDUCT.md) for details on our code of conduct, [CONTRIBUTING.md](https://github.com/10up/Open-Source-Best-Practices/blob/master/CONTRIBUTING.md) for details on the process for submitting pull requests to us, and [CREDITS.md](https://github.com/10up/Open-Source-Best-Practices/blob/master/CREDITS.md) for a listing of maintainers of, contributors to, and references used by our Open Source Best Practices.
 
 ## Like what you see?
 
