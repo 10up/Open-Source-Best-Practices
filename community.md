@@ -10,9 +10,9 @@ subnav:
     tag: readme
   - title: Code of Conduct
     tag: code-of-conduct
-  - title: Contributing
+  - title: Contributing to Open Source
     tag: contributing
-updated: 17 September 2019
+updated: 24 October 2019
 ---
 
 <div class="docs-section">
