@@ -12,9 +12,9 @@ subnav:
     tag: agencies
   - title: Open Source vs. Open Process
     tag: process
-  - title: Contributing to this project
+  - title: Contributing to this guide
     tag: contributing
-updated: 24 October 2019
+updated: 28 October 2019
 ---
 
 <div class="toc">
@@ -28,7 +28,7 @@ updated: 24 October 2019
 			<li><a href="{{ site.baseurl }}#why-oss">Why OSS?</a></li>
 			<li><a href="{{ site.baseurl }}#agencies">OSS for Agencies</a></li>
 			<li><a href="{{ site.baseurl }}#process">Open Source vs. Open Process</a></li>
-			<li><a href="{{ site.baseurl }}#contributing">Contributing to this project</a></li>
+			<li><a href="{{ site.baseurl }}#contributing">Contributing to this guide</a></li>
 		</ul>
 	</div>
 
