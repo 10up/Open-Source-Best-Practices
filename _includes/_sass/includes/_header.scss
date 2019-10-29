@@ -74,15 +74,15 @@
 				padding-left: 6px;
 				text-align: center;
 
-				li:first-child {
+				& > li:first-child {
 					margin-left: -15px;
 				}
 
-				li:nth-of-type(3) {
+				& > li:nth-of-type(3) {
 					margin-right: 50px;
 				}
 
-				li:nth-of-type(4) {
+				& > li:nth-of-type(4) {
 					margin-left: 45px;
 				}
 			}
