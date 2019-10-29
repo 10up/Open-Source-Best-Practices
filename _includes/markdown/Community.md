@@ -1,6 +1,6 @@
 <h2 id="readme" class="anchor-heading">Readme {% include Util/link_anchor anchor="readme" %} {% include Util/top %}</h2>
 
-A README, Code of conduct, Contributing, License, Security policy, Issue templates, and Pull request template should all exist on each repository.  The 10up standard for each of these (except README and LICENSE) are noted in the [10up .github repository](https://github.com/10up/.github) and will appear in all 10up repositories unless a local one is created so feel free to leverage the default files unless it's necessary and reasonable to create custom ones local to your repository.
+A README, Code of conduct, Contributing guidelines, License, Security policy, Issue templates, and Pull request template should all exist in each repository.  The 10up standard for each of these (except README and LICENSE) is represented in the [10up .github repository](https://github.com/10up/.github) and will appear in all 10up repositories unless a local one is created, so feel free to leverage the default files unless it's necessary and reasonable to create custom ones for a given repository.
 
 ### README outline
 
@@ -50,7 +50,7 @@ At the end of the README should be the standard 10up Hiring promotion image with
 
 10up has standardized to the Contributor Covenant version of a Code of Conduct file, currently [version 1.4](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html).  We also utilize the community-wide community health file functionality from GitHub, so any project that doesn't include it's own CODE_OF_CONDUCT.md file will inherit the [default 10up version](https://github.com/10up/.github/blob/master/CODE_OF_CONDUCT.md).  Projects may chose to include their own version of the Contributor Covenant CODE_OF_CONDUCT.md or rely upon the 10up default version.
 
-<h2 id="contributing" class="anchor-heading">Contributing to Open Source {% include Util/link_anchor anchor="contributing" %} {% include Util/top %}</h2>
+<h2 id="contributing" class="anchor-heading">Contributing Guidelines {% include Util/link_anchor anchor="contributing" %} {% include Util/top %}</h2>
 
 10up has standardized the ways in which we expect 10up, our project Maintainers, and community contributions to interrelate 
 when contributing to our open source projects.  These are defined in our default [CONTRIBUTING.md file](https://github.com/10up/.github/blob/master/CONTRIBUTING.md) that will be inherited by any projects that do not have their own CONTRIBUTING.md file.  Projects may chose to include their own version of the CONTRIBUTING.md file or rely upon the 10up default version.

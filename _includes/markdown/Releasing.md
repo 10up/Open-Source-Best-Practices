@@ -16,7 +16,7 @@ That said, clients benefit as much as anyone (perhaps even more than anyone) whe
 
 If you have identified code developed as part of a client project that would make an ideal contribution to an existing open source project or an open source release of its own, work with your account manager to specifically identify the need for and obtain client permission.
 
-In order to be publicly open sourced, all new plugins should have Gutenberg support and must conform with the [WCAG 2.0 guidelines at level AA](https://www.w3.org/TR/WCAG20/).
+In order to be publicly open sourced, all new WordPress plugins should have Gutenberg support and must conform with the [WCAG 2.0 guidelines at level AA](https://www.w3.org/TR/WCAG20/).
 
 <h2 id="choosing-tools" class="anchor-heading">Choosing tools {% include Util/link_anchor anchor="choosing-tools" %} {% include Util/top %}</h2>
 
@@ -31,8 +31,6 @@ All newly released code should adhere to the [WCAG 2.0](https://www.w3.org/TR/WC
 <h2 id="security" class="anchor-heading">Security {% include Util/link_anchor anchor="security" %} {% include Util/top %}</h2>
 
 GitHub added support for [security alerts in November 2017](https://github.blog/2017-11-16-introducing-security-alerts-on-github/) and [automated security fixes in May 2019](https://github.blog/2019-05-23-introducing-new-ways-to-keep-your-code-secure/#automated-security-fixes-with-dependabot).  Both of these add up to additional help ensuring that your code is secure, so properly [list the packages that your repository depends on](https://help.github.com/en/articles/listing-the-packages-that-a-repository-depends-on) and [enable automated security fixes in your repository](https://help.github.com/en/articles/configuring-automated-security-fixes#managing-automated-security-fixes-for-your-repository).  If you have a private repository, then you’ll also need [to allow GitHub read-only access, to enable the dependency graph, and to enable security alerts](https://help.github.com/en/articles/opting-into-or-out-of-data-use-for-your-private-repository#opting-into-data-use-for-your-private-repository).  Finally, make sure to pay attention to your security alerts and work to build a release with those updates as reasonably expeditiously as possible.
-
-Alongside security alerts and fixes, you should have a defined [security policy](https://help.github.com/en/articles/adding-a-security-policy-to-your-repository) in your repository.  This SECURITY.md file should provide clear instructions to contributors on how to responsibly report a security vulnerability and should describe how you report security vulnerabilities that are found.  We have setup a [default Security Policy](https://github.com/10up/.github/blob/master/SECURITY.md) in the [10up .github repository](https://github.com/10up/.github), so feel free to just utilize those or create custom ones for your repository (example: **TBD**).
 
 This means that we’ll want the following GitHub settings:
 - Settings > Options > Data services > Security alerts
