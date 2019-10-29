@@ -16,7 +16,7 @@ That said, clients benefit as much as anyone (perhaps even more than anyone) whe
 
 If you have identified code developed as part of a client project that would make an ideal contribution to an existing open source project or an open source release of its own, work with your account manager to specifically identify the need for and obtain client permission.
 
-In order to be publicly open sourced, all new plugins should have Gutenberg support and must conform with the [WCAG 2.0 guidelines at level AA](https://www.w3.org/TR/WCAG20/).
+In order to be publicly open sourced, all new WordPress plugins should have Gutenberg support and must conform with the [WCAG 2.0 guidelines at level AA](https://www.w3.org/TR/WCAG20/).
 
 <h2 id="choosing-tools" class="anchor-heading">Choosing tools {% include Util/link_anchor anchor="choosing-tools" %} {% include Util/top %}</h2>
 
