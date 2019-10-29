@@ -34,16 +34,16 @@ All repositories should also have at least one numbered milestone available that
 Each repository should have a `master` and `develop` branch with `develop` being the default branch.  [Branching and Deploying should follow the processes outlined in the Engineering Best Practices for plugins](https://10up.github.io/Engineering-Best-Practices/version-control/#plugins).  Similarly, we should [protect the `master` branch as outlined in the Engineering Best Practices](https://10up.github.io/Engineering-Best-Practices/version-control/#protecting-the-master-branch).  Merges should be handled as [non-fast-forwards merges as outlined in the Engineering Best Practices](https://10up.github.io/Engineering-Best-Practices/version-control/#merges) and not squash merges so that the `master` branch maintains full commit and code author history, this is done for transparency and to honor all contributions to our open source work.
 This means that we’ll want the following GitHub settings:
 
-![](../../img/github-settings-options-merge-button.png)
+![](../img/github-settings-options-merge-button.png)
 - Settings > Options > Merge button: Allow merge commits
 - Settings > Options > Merge button: Allow squash merging
 - Settings > Options > Merge button: Allow rebase merging
 
-![](../../img/github-settings-branches.png)
+![](../img/github-settings-branches.png)
 - Settings > Branches > Default branch: `develop`
 - Settings > Branches > Branch protection rules > `master` ...AND… `develop`:
 
-![](../../img/github-settings-branch-protection-rule-settings.png)
+![](../img/github-settings-branch-protection-rule-settings.png)
   - Require pull request reviews before merging
     - Required approving reviews: 1
     - Dismiss stale pull request approvals when new commits are pushed
@@ -135,11 +135,11 @@ Ensure that an appropriately sized OpenGraph image is created and [uploaded for 
 
 <h2 id="dependency-management" class="anchor-heading">Dependency management {% include Util/link_anchor anchor="dependency-management" %} {% include Util/top %}</h2>
 
-All repositories will leverage [Dependabot](https://dependabot.com/) to help automate dependency management so that we are alerted as dependencies update, receive a pull request with dependency updates, and see whether dependency updates pass our automated testing or otherwise requires further code changes before updating.  Note that with [GitHub purchasing Dependabot](https://dependabot.com/blog/hello-github/), we should plan to leverage those features once they’re [integrated natively in GitHub](https://github.blog/2019-05-23-introducing-new-ways-to-keep-your-code-secure/) (unless we prioritize this more seriously and want to add the Dependabot GitHub marketplace app now).
+All repositories will leverage GitHub's built-in [security fixes feature](https://help.github.com/en/github/managing-security-vulnerabilities/configuring-automated-security-fixes) (currently in beta) to help automate dependency management so that we are alerted as dependencies update, receive a pull request with dependency updates, and see whether dependency updates pass our automated testing or otherwise requiref further code changes before updating.
 
 <h2 id="code-coverage" class="anchor-heading">Code coverage {% include Util/link_anchor anchor="code-coverage" %} {% include Util/top %}</h2>
 
-Every feature should be accompanied with tests and all pull requests should come with associated tests, all living within the `tests` directory.  While we have no intention of striving for 100% code coverage, we should aim for above 80% with above 90% being the ideal.  We should also utilize a code coverage / automated code review tool like [Coveralls](https://coveralls.io/), [Code Climate](https://codeclimate.com/), or [Codecov](https://codecov.io/) and ensure that is a pull request requirement before merging.
+Every feature should be accompanied with tests and all pull requests should come with associated tests, all living within the `tests` directory.  While we have no intention of striving for 100% code coverage, we should aim for above 80% with above 90% being the ideal.  We should also look to utilize a code coverage / automated code review tool like [Coveralls](https://coveralls.io/), [Code Climate](https://codeclimate.com/), or [Codecov](https://codecov.io/) and ensure that is a pull request requirement before merging.
 
 <!-- @todo: add coverage badge details -->
 
@@ -149,7 +149,7 @@ Like WordPress core, we should adhere to WPCS (or 10up ruleset) and WPCS VIP 2.0
 
 <h2 id="continuous-integration" class="anchor-heading">Continuous integration {% include Util/link_anchor anchor="continuous-integration" %} {% include Util/top %}</h2>
 
-.travis.yml, like it, live it, love it.
+*Coming soon:* GitHub Actions and Travis configurations
 
 Changes to our projects should not cause issue with the two most recent major versions of WordPress and the lowest supported version of PHP and above.  Our CI pipelines should be testing for and alerting for any changes that do run afoul of this approach.
 
