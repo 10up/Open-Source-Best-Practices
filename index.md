@@ -63,7 +63,7 @@ updated: 28 October 2019
 		<ul>
 			<li><a href="{{ site.baseurl }}/community/#readme">Readme</a></li>
 			<li><a href="{{ site.baseurl }}/community/#code-of-conduct">Code of Conduct</a></li>
-			<li><a href="{{ site.baseurl }}/community/#contributing">Contributing to Open Source</a></li>
+			<li><a href="{{ site.baseurl }}/community/#contributing">Contributing Guidelines</a></li>
 		</ul>
 	</div>
 
