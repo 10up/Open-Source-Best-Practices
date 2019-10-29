@@ -10,7 +10,7 @@ The following individuals are responsible for curating the list of issues, respo
 
 Thank you to all the people who have already contributed to this repository via bug reports, code, design, ideas, project management, translation, testing, etc.
 
-[Helen Hou-Sandi (@helen)](https://github.com/helen), [Jeffrey Paul (@jeffpaul)](https://github.com/jeffpaul), [Adam Silverstein (@adamsilverstein)](https://github.com/adamsilverstein), [John Eckman (@jeckman)](https://github.com/jeckman)
+[Helen Hou-Sandi (@helen)](https://github.com/helen), [Jeffrey Paul (@jeffpaul)](https://github.com/jeffpaul), [Adam Silverstein (@adamsilverstein)](https://github.com/adamsilverstein), [John Eckman (@jeckman)](https://github.com/jeckman), [John Watkins (@johnwatkins0)](https://github.com/johnwatkins0)
 
 ## References
 
