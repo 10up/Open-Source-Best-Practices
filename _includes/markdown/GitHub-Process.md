@@ -63,6 +63,8 @@ Maintain documentation in the same repository as much as possible. This keeps ev
 
 Depending on the amount of documentation associated with your projects usage instructions, you may find that hosting them as a separate view, such as [GitHub Pages](https://pages.github.com/) or a [GitHub wiki](https://help.github.com/en/articles/about-wikis), is preferable to markdown files in a `/docs/` subfolder.  Note that if you go the GitHub Pages route, that you'll want to consider a `gh-pages` branch that deploys to your GitHub Pages site.
 
+Our Distributor project recently added a GitHub Action, some JSON config files, and JSDoc-formatted docblocks to [automatically build hook documentation to GitHub Pages](https://10up.github.io/distributor/).  Where feasible, we should look to replicate that [process to generate WordPress plugin or theme hook documentation](https://github.com/10up/actions-wordpress/blob/master/hookdocs-workflow.md) across other projects to improve our level of technical documentation.
+
 <!-- @todo: WIKI tips: wiki repo (don’t submodule...), wiki repo strategies and examples -->
 
 <h2 id="support-levels" class="anchor-heading">Support Levels {% include Util/link_anchor anchor="support-levels" %} {% include Util/top %}</h2>
