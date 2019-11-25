@@ -6,6 +6,8 @@ group: navigation
 weight: 1
 layout: default
 subnav:
+  - title: Introduction
+    tag: intro
   - title: Why OSS?
     tag: why-oss
   - title: OSS for Agencies
@@ -14,7 +16,7 @@ subnav:
     tag: process
   - title: Contributing to this guide
     tag: contributing
-updated: 28 October 2019
+updated: 25 November 2019
 ---
 
 <div class="toc">
@@ -23,8 +25,9 @@ updated: 28 October 2019
 	</header>
 
 	<div class="col">
-		<h3><a href="{{ site.baseurl }}#top">Introduction</a></h3>
+		<h3><a href="{{ site.baseurl }}#top">Home</a></h3>
 		<ul>
+			<li><a href="{{ site.baseurl }}#intro">Introduction</a></li>		
 			<li><a href="{{ site.baseurl }}#why-oss">Why OSS?</a></li>
 			<li><a href="{{ site.baseurl }}#agencies">OSS for Agencies</a></li>
 			<li><a href="{{ site.baseurl }}#process">Open Source vs. Open Process</a></li>
