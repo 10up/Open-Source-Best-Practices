@@ -31,7 +31,7 @@ All repositories should also have at least one numbered milestone available that
 
 <h2 id="branching-merging-deploying" class="anchor-heading">Branching, Merging, and Deploying {% include Util/link_anchor anchor="branching-merging-deploying" %} {% include Util/top %}</h2>
 
-Each repository should have a `master` and `develop` branch with `develop` being the default branch.  [Branching and Deploying should follow the processes outlined in the Engineering Best Practices for plugins](https://10up.github.io/Engineering-Best-Practices/version-control/#plugins).  Similarly, we should [protect the `master` branch as outlined in the Engineering Best Practices](https://10up.github.io/Engineering-Best-Practices/version-control/#protecting-the-master-branch).  Merges should be handled as [non-fast-forwards merges as outlined in the Engineering Best Practices](https://10up.github.io/Engineering-Best-Practices/version-control/#merges) and not squash merges so that the `master` branch maintains full commit and code author history, this is done for transparency and to honor all contributions to our open source work.
+Each repository should have a `trunk` and `develop` branch with `develop` being the default branch.  [Branching and Deploying should follow the processes outlined in the Engineering Best Practices for plugins](https://10up.github.io/Engineering-Best-Practices/version-control/#plugins).  Similarly, we should [protect the `trunk` branch as outlined in the Engineering Best Practices](https://10up.github.io/Engineering-Best-Practices/version-control/#protecting-the-trunk-branch).  Merges should be handled as [non-fast-forwards merges as outlined in the Engineering Best Practices](https://10up.github.io/Engineering-Best-Practices/version-control/#merges) and not squash merges so that the `trunk` branch maintains full commit and code author history, this is done for transparency and to honor all contributions to our open source work.
 This means that we’ll want the following GitHub settings:
 
 ![](../img/github-settings-options-merge-button.png)
@@ -41,7 +41,7 @@ This means that we’ll want the following GitHub settings:
 
 ![](../img/github-settings-branches.png)
 - Settings > Branches > Default branch: `develop`
-- Settings > Branches > Branch protection rules > `master` ...AND… `develop`:
+- Settings > Branches > Branch protection rules > `trunk` ...AND… `develop`:
 
 ![](../img/github-settings-branch-protection-rule-settings.png)
   - Require pull request reviews before merging
@@ -63,7 +63,7 @@ Maintain documentation in the same repository as much as possible. This keeps ev
 
 Depending on the amount of documentation associated with your projects usage instructions, you may find that hosting them as a separate view, such as [GitHub Pages](https://pages.github.com/) or a [GitHub wiki](https://help.github.com/en/articles/about-wikis), is preferable to markdown files in a `/docs/` subfolder.  Note that if you go the GitHub Pages route, that you'll want to consider a `gh-pages` branch that deploys to your GitHub Pages site.
 
-Our Distributor project recently added a GitHub Action, some JSON config files, and JSDoc-formatted docblocks to [automatically build hook documentation to GitHub Pages](https://10up.github.io/distributor/).  Where feasible, we should look to replicate that [process to generate WordPress plugin or theme hook documentation](https://github.com/10up/actions-wordpress/blob/master/hookdocs-workflow.md) across other projects to improve our level of technical documentation.
+Our Distributor project recently added a GitHub Action, some JSON config files, and JSDoc-formatted docblocks to [automatically build hook documentation to GitHub Pages](https://10up.github.io/distributor/).  Where feasible, we should look to replicate that [process to generate WordPress plugin or theme hook documentation](https://github.com/10up/actions-wordpress/blob/trunk/hookdocs-workflow.md) across other projects to improve our level of technical documentation.
 
 <!-- @todo: WIKI tips: wiki repo (don’t submodule...), wiki repo strategies and examples -->
 
