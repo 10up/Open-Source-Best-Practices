@@ -8,12 +8,12 @@ Central to a successful open process are setting expectations and respecting the
 
 In the [2017 Open Source Survey conducted by GitHub](https://opensourcesurvey.org/2017/), the number one issue that people feel is most important for open source projects is “responsive maintainers.”  As such, we should aim for quick response and triage on all newly opened issues and pull requests.  Not so much that we quickly resolve those issues or merge those pull requests, but that we respond quickly and set realistic expectations for what contributors can expect from us.
 
-We have set up default [Issue](https://github.com/10up/.github/tree/master/ISSUE_TEMPLATE) and [Pull Request](https://github.com/10up/.github/blob/master/PULL_REQUEST_TEMPLATE.md) Templates in the [10up .github repository](https://github.com/10up/.github), so feel free to let those do the work, or create custom ones for your repository (example: [ClassifAI](https://github.com/10up/classifai/tree/develop/.github)).
+We have set up default [Issue](https://github.com/10up/.github/tree/trunk/ISSUE_TEMPLATE) and [Pull Request](https://github.com/10up/.github/blob/trunk/PULL_REQUEST_TEMPLATE.md) Templates in the [10up .github repository](https://github.com/10up/.github), so feel free to let those do the work, or create custom ones for your repository (example: [ClassifAI](https://github.com/10up/classifai/tree/develop/.github)).
 
 Issue triage will primarily be handled by our Open Source Practice leadership as well as specifically identified Maintainers for each project, but to help ensure we reply to all issues and pull requests within five business days, others within 10up are always welcome to assist with triage.  We ask that as you review issues and pull requests you consider the following:
 
 - When someone new lands on a project, thank them for their interest! GitHub shows various first-time contributor indicators.
-- Utilize our [10up Saved Replies](https://github.com/10up/.github/blob/master/.github/SAVED_REPLIES.md) to quickly respond to standard requests.
+- Utilize our [10up Saved Replies](https://github.com/10up/.github/blob/trunk/.github/SAVED_REPLIES.md) to quickly respond to standard requests.
 - Apply labels to ensure others who review issues and pull requests after you can benefit from your initial triage.
 - If a pull request hasn't been linked to an existing issue, please add a comment to link them or open a corresponding issue.
 - As issues come in via WordPress.org support requests, respond with a “thanks for your report…”, let them know you're moving the forum report to GitHub, and then provide them the link to the newly opened GitHub issue.
