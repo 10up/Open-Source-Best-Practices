@@ -61,9 +61,17 @@ This means that we’ll want the following GitHub settings:
 
 Maintain documentation in the same repository as much as possible. This keeps everything portable and usable even when offline. There are two main varieties of documentation typically associated with open source software: usage instructions and maintenance guidelines. Most of this section focuses on maintenance guidelines to support the process you’ve outlined, as usage instructions will vary widely between projects.
 
-Depending on the amount of documentation associated with your projects usage instructions, you may find that hosting them as a separate view, such as [GitHub Pages](https://pages.github.com/) or a [GitHub wiki](https://help.github.com/en/articles/about-wikis), is preferable to markdown files in a `/docs/` subfolder.  Note that if you go the GitHub Pages route, that you'll want to consider a `gh-pages` branch that deploys to your GitHub Pages site.
+Depending on the amount of documentation associated with your projects usage instructions, you may find that hosting them as a separate view, such as [GitHub Pages](https://pages.github.com/) or a [GitHub wiki](https://help.github.com/en/articles/about-wikis), is preferable to markdown files in a `/docs/` subfolder.
 
-Our Distributor project recently added a GitHub Action, some JSON config files, and JSDoc-formatted docblocks to [automatically build hook documentation to GitHub Pages](https://10up.github.io/distributor/).  Where feasible, we should look to replicate that [process to generate WordPress plugin or theme hook documentation](https://github.com/10up/actions-wordpress/blob/stable/hookdocs-workflow.md) across other projects to improve our level of technical documentation.
+If you go the GitHub Pages route, which is our default preference, you should:
+
+* create the GitHub Pages root within a folder in the repository such as `/docs/`, and configure GitHub Pages to build from that folder.
+* update the documentation when the corresponding code is updated.
+* configure GitHub Pages to build from the branch of the project that represents the version of the code users will encounter if they are using an up-to-date version of the project. This would be a `release`, `stable`, or `trunk` branch, instead of a `develop` or `gh-pages` branch.
+
+In this way, merging a feature or development branch that contains new/updated code will simultaneously update the documentation to match the new code.
+
+Our [Distributor project](https://distributorplugin.com/) recently added a [GitHub Action to automatically build hook documentation to GitHub Pages](https://github.com/10up/actions-wordpress/blob/stable/hookdocs-workflow.md) based on JSDoc-formatted docblocks within the code ([see resulting hook doc site for Distributor](https://10up.github.io/distributor/)).  Where feasible, we should look to replicate that process to generate WordPress plugin or theme hook documentation across other projects to improve our level of technical documentation.
 
 <!-- @todo: WIKI tips: wiki repo (don’t submodule...), wiki repo strategies and examples -->
 
