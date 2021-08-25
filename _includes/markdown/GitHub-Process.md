@@ -73,8 +73,6 @@ In this way, merging a feature or development branch that contains new/updated c
 
 Our [Distributor project](https://distributorplugin.com/) recently added a [GitHub Action to automatically build hook documentation to GitHub Pages](https://github.com/10up/actions-wordpress/blob/stable/hookdocs-workflow.md) based on JSDoc-formatted docblocks within the code ([see resulting hook doc site for Distributor](https://10up.github.io/distributor/)).  Where feasible, we should look to replicate that process to generate WordPress plugin or theme hook documentation across other projects to improve our level of technical documentation.
 
-<!-- @todo: WIKI tips: wiki repo (don’t submodule...), wiki repo strategies and examples -->
-
 <h2 id="support-levels" class="anchor-heading">Support Levels {% include Util/link_anchor anchor="support-levels" %} {% include Util/top %}</h2>
 
 The intended support level for each repository should be determined (i.e., Beta, Active, Stable, Archived) and then noted within the GitHub repository and, where applicable, within the WordPress.org repository to clearly state our intentions.  The following are recommended GitHub badges and section copy for the README.md file as well as pinned posts within the WordPress.org support forums.
