@@ -153,7 +153,7 @@ Every feature should be accompanied with tests and all pull requests should come
 
 <h2 id="coding-standards" class="anchor-heading">Coding standards {% include Util/link_anchor anchor="coding-standards" %} {% include Util/top %}</h2>
 
-Like WordPress core, we should adhere to WPCS (or 10up ruleset) and WPCS VIP 2.0 and ensure that this is a pull request requirement before merging.
+All WordPress plugin-related projects should adhere to WordPress Coding Standards (WPCS), like WordPress core, and WordPress VIP Coding Standards (VIPCS).  Using our [WPCS GitHub Action](https://github.com/10up/wpcs-action) across all repos and making sure all Pull Requests are required for this check to pass before merging will ensure that all code output matches community agreed upon expectations.  Non-WordPress plugin projects should attempt to use a community standard for coding standards where they exist and ideally as part of a GitHub Action to act as a check on all Pull Requests.
 
 <h2 id="continuous-integration" class="anchor-heading">Continuous integration {% include Util/link_anchor anchor="continuous-integration" %} {% include Util/top %}</h2>
 
