@@ -145,12 +145,6 @@ Ensure that an appropriately sized OpenGraph image is created and [uploaded for 
 
 All repositories will leverage GitHub's built-in [security fixes feature](https://help.github.com/en/github/managing-security-vulnerabilities/configuring-automated-security-fixes) (currently in beta) to help automate dependency management so that we are alerted as dependencies update, receive a pull request with dependency updates, and see whether dependency updates pass our automated testing or otherwise requiref further code changes before updating.
 
-<h2 id="code-coverage" class="anchor-heading">Code coverage {% include Util/link_anchor anchor="code-coverage" %} {% include Util/top %}</h2>
-
-Every feature should be accompanied with tests and all pull requests should come with associated tests, all living within the `tests` directory.  While we have no intention of striving for 100% code coverage, we should aim for above 80% with above 90% being the ideal.  We should also look to utilize a code coverage / automated code review tool like [Coveralls](https://coveralls.io/), [Code Climate](https://codeclimate.com/), or [Codecov](https://codecov.io/) and ensure that is a pull request requirement before merging.
-
-<!-- @todo: add coverage badge details -->
-
 <h2 id="coding-standards" class="anchor-heading">Coding standards {% include Util/link_anchor anchor="coding-standards" %} {% include Util/top %}</h2>
 
 All WordPress plugin-related projects should adhere to WordPress Coding Standards (WPCS), like WordPress core, and WordPress VIP Coding Standards (VIPCS).  Using our [WPCS GitHub Action](https://github.com/10up/wpcs-action) across all repos and making sure all Pull Requests are required for this check to pass before merging will ensure that all code output matches community agreed upon expectations.  Non-WordPress plugin projects should attempt to use a community standard for coding standards where they exist and ideally as part of a GitHub Action to act as a check on all Pull Requests.

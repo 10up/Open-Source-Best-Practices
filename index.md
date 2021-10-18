@@ -80,9 +80,16 @@ updated: 25 November 2019
 			<li><a href="{{ site.baseurl }}/github-process/#support-levels">Support Levels</a></li>
 			<li><a href="{{ site.baseurl }}/github-process/#opengraph-image">OpenGraph Image</a></li>
 			<li><a href="{{ site.baseurl }}/github-process/#dependency-management">Dependency Management</a></li>
-			<li><a href="{{ site.baseurl }}/github-process/#code-coverage">Code Coverage</a></li>
 			<li><a href="{{ site.baseurl }}/github-process/#coding-standards">Coding Standards</a></li>
 			<li><a href="{{ site.baseurl }}/github-process/#continuous-integration">Continuous Integration</a></li>
+		</ul>
+	</div>
+
+	<div class="col">
+		<h3><a href="{{ site.baseurl }}/testing/#top">Testing</a></h3>
+		<ul>
+			<li><a href="{{ site.baseurl }}/testing/#code-coverage">Code Coverage</a></li>
+			<li><a href="{{ site.baseurl }}/testing/#e2e-testing">E2E testing</a></li>
 		</ul>
 	</div>
 </div>

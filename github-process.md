@@ -20,8 +20,6 @@ subnav:
     tag: opengraph-image
   - title: Dependency Management
     tag: dependency-management
-  - title: Code Coverage
-    tag: code-coverage
   - title: Coding Standards
     tag: coding-standards
   - title: Continuous Integration
