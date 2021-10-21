@@ -8,11 +8,11 @@ Every feature should be accompanied with tests and all pull requests should come
 
 ### Testing environment
 
-The environment should be accessible and easy to set up on both local and CI environments. In the WordPress context, the environment must also be configurable to fit as many scenarios as possible, including testing against different WP versions and with other plugins/themes activated. For open source project, we also want to use a community-driven tool.Because of those reasons, we choose `wp-env` for 10up's Open Source projects.
+The environment should be accessible and [easy to set up](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/#installation-as-a-local-package) on both local and CI environments. In the WordPress context, the environment must also be configurable to fit as many scenarios as possible, including testing against [different](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/#latest-production-wordpress-current-directory-as-a-plugin) [WP](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/#latest-development-wordpress-current-directory-as-a-plugin) [versions](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/#local-wordpress-develop-current-directory-as-a-plugin) and with [other plugins/themes activated](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/#a-complete-testing-environment). For open source project, we also want to use a community-driven tool. Because of those reasons, we choose [`wp-env`](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env) for 10up's Open Source projects.
 
 ### Test runner
 
-Cypress is the tool we're using for E2E testing. Cypress provides a great developer experience for writing the tests, including simple and familiar syntax and a powerful visual debugger. On top of that, Cypress gives us the most consistent results among the tools we tried.
+[Cypress](https://github.com/cypress-io/cypress) is the tool we're using for E2E testing. Cypress provides a great developer experience for writing the tests, including simple and familiar syntax and a powerful visual debugger. On top of that, Cypress gives us the most consistent results among the tools we tried.
 
 ### Importing the test URL
 
