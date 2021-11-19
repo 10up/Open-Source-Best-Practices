@@ -13,7 +13,7 @@ The following labels will our standard set of labels across all open source repo
 - [`needs:design`](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Aneeds%3Adesign+) - “This requires design to resolve.” (color: #999999)
 - [`needs:documentation`](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Aneeds%3Adocumentation+) - “This requires documentation.” (color: #999999)
 - [`needs:feedback`](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Aneeds%3Afeedback+) - “This requires feedback to determine next steps.” (color: #999999)
-- - [`needs:qa`](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Aneeds%3Aqa+) - “This requires QA testing.” (color: #999999)
+- [`needs:qa`](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Aneeds%3Aqa+) - “This requires QA testing.” (color: #999999)
 - [`needs:refresh`](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Aneeds%3Arefresh+) - “This requires a refreshed PR to resolve.” (color: #999999)
 - [`needs:tests`](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Aneeds%3Atests+) - “This requires tests.” (color: #999999)
 - [`needs:ux`](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Aneeds%3Aux+) - “This requires user experience to resolve.” (color: #999999)
