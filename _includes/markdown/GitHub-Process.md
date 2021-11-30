@@ -2,23 +2,28 @@ The following items are required across all repositories managed by our Open Sou
 
 <h2 id="issue-pr-labels" class="anchor-heading">Issue and PR labels {% include Util/link_anchor anchor="issue-pr-labels" %} {% include Util/top %}</h2>
 
-The following labels will our standard set of labels across all open source repositories to help ensure we use clear and consistent labelling terminology.  This will allow us to see the status and type of all issues at a glance, to help track and report on contributions across our repositories, and to provide easier ways to find issues to contribute to (e.g., all `needs:ux` and `good-first-issues`).  We’re starting a minimal set of labels and will let progressive enhancement further define them for us as well as perform occasional housekeeping.
-- `type:bug` - “Something isn't working.” (color: #d73a4a)
-- `type:enhancement` - “New feature or request.” (color: #a2eeef)
-- [`type:good-first-issue`](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Atype%3Agood-first-issue) - “Good for newcomers.” (color: #993299)
-- `type:question` - “Further information is requested.” (color: #d876e3)
-- [`needs:engineering`](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Aneeds%3Aengineering+) - “This requires engineering to resolve.” (color: #999999)
-- [`needs:code-review`](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Aneeds%3Acode-review+) - “This requires code review.” (color: #999999)
-- [`needs:design`](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Aneeds%3Adesign+) - “This requires design to resolve.” (color: #999999)
-- [`needs:documentation`](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Aneeds%3Adocumentation+) - “This requires documentation.” (color: #999999)
-- [`needs:feedback`](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Aneeds%3Afeedback+) - “This requires feedback to determine next steps.” (color: #999999)
-- [`needs:refresh`](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Aneeds%3Arefresh+) - “This requires a refreshed PR to resolve.” (color: #999999)
-- [`needs:tests`](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Aneeds%3Atests+) - “This requires tests.” (color: #999999)
-- [`needs:ux`](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Aneeds%3Aux+) - “This requires user experience to resolve.” (color: #999999)
-- `resolution:not-applicable` - “We do not feel this issue is valid.” (color: #FFA500)
-- `resolution:not-reproducible` - “We are unable to reproduce this issue.” (color: #FFFF00)
-- `resolution:resolved` - “This issue has been resolved.” (color: #008000)
-- `resolution:wontfix` - “We do not intend to resolve this issue.” (color: #000000)
+The following labels will our standard set of labels across all open source repositories to help ensure we use clear and consistent labelling terminology.  This will allow us to see the status and type of all issues at a glance, to help track and report on contributions across our repositories, and to provide easier ways to find issues to contribute to (e.g., all `needs:ux` and `type:good-first-issues`).  We’re starting a minimal set of labels and will let progressive enhancement further define them for us as well as perform occasional housekeeping.
+- [`type:accessibility`](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Atype%3Aaccessibility) - "Issue with accessibility." (color: #006B75)
+- [`type:bug`](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Atype%3Abug) - “Something isn't working.” (color: #B60205)
+- [`type:dependency`](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Atype%3Adependency) - “An issue with a separate library that this project relies upon.” (color: #0E8A16)
+- [`type:enhancement`](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Atype%3Aenhancement) - “New feature or request.” (color: #1D76DB)
+- [`type:good-first-issue`](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Atype%3Agood-first-issue) - “Good for newcomers.” (color: #5319E7)
+- [`type:question`](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Atype%3Aquestion) - “Further information is requested.” (color: #FF007F)
+- [`needs:code-review`](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Aneeds%3Acode-review) - “This requires code review.” (color: #FFFFFF)
+- [`needs:design`](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Aneeds%3Adesign) - “This requires design to resolve.” (color: #FFFFFF)
+- [`needs:discussion`](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Aneeds%3Adiscussion) - “This requires discussion to determine next steps.” (color: #FFFFFF)
+- [`needs:documentation`](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Aneeds%3Adocumentation) - “This requires documentation.” (color: #FFFFFF)
+- [`needs:engineering`](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Aneeds%3Aengineering) - “This requires engineering to resolve.” (color: #FFFFFF)
+- [`needs:feedback`](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Aneeds%3Afeedback) - “This requires reporter feedback to better understand the request.” (color: #FBCA04)
+- [`needs:qa`](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Aneeds%3Aqa) - “This requires QA testing.” (color: #FFFFFF)
+- [`needs:refresh`](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Aneeds%3Arefresh) - “This requires a refreshed PR to resolve.” (color: #FFFFFF)
+- [`needs:tests`](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Aneeds%3Atests) - “This requires tests.” (color: #FFFFFF)
+- [`needs:ux`](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Aneeds%3Aux) - “This requires user experience to resolve.” (color: #FFFFFF)
+- [`resolution:duplicate`](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Aresolution%3Aduplicate) - “This issue has already been logged.” (color: #000000)
+- [`resolution:not-applicable`](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Aresolution%3Anot-applicable) - “We do not feel this issue is valid.” (color: #000000)
+- [`resolution:not-reproducible`](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Aresolution%3Anot-reproducible) - “We are unable to reproduce this issue.” (color: #000000)
+- [`resolution:resolved`](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Aresolution%3Aresolved) - “This issue has been resolved.” (color: #90EE90)
+- [`resolution:wontfix`](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3A10up+no%3Aassignee+label%3Aresolution%3Awontfix) - “We do not intend to resolve this issue.” (color: #000000)
 
 <h2 id="milestones" class="anchor-heading">Milestones {% include Util/link_anchor anchor="milestones" %} {% include Util/top %}</h2>
 
