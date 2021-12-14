@@ -58,7 +58,7 @@ The simplest configuration is as follows:
 ```yaml
 # actions.yml
 
-- name: Upload RSA artifcats
+- name: Upload artifcats
   uses: actions/upload-artifact@v2.3.0
   if: always()
   with:
