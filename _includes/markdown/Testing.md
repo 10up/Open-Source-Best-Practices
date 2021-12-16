@@ -44,3 +44,26 @@ cy.visit( `/wp-admin` );
 ### Testing against multiple configurations
 
 The purpose of E2E testing is to ensure the user-facing features work as expected. In the WordPress context, we can extend that purpose to "working as expected against supported WP versions and plugins/themes". At 10up, we're using GitHub Actions matrix and `wp-env` config override to solve that problem by [generating `wp-env` config](https://github.com/10up/simple-podcasting/blob/develop/tests/bin/set-core-version.js) for [each matrix](https://github.com/10up/simple-podcasting/blob/develop/.github/workflows/test-branch.yml#L30-L31). We're doing it for WP core version only, but it can be adapted and updated to handle more complex configurations.
+
+### Debugging Cypress on GitHub Actions
+
+In rare scenarios, tests may pass locally but fail on CI. To debug such cases, we use Cypress' [screenshot and video recording capabilities](https://docs.cypress.io/guides/guides/screenshots-and-videos#Screenshots) in tandem with the [Upload Artifact Action](https://github.com/actions/upload-artifact).
+
+Configuring Cypress to capture screenshots and videos of the tests is pretty straightforward. And, unless explicitly configured, Cypress will store the screenshots and videos under the `cypress/screenshots` and `cypress/videos` directories by default.
+
+We configure the Upload Artifact Action to build an artifact out of these 2 directories, which will be later available to us for download and inspection.
+
+The simplest configuration is as follows:
+
+```yaml
+# actions.yml
+
+- name: Upload artifacts
+  uses: actions/upload-artifact@v2.3.0
+  if: always()
+  with:
+    name: 'Cypress artifacts'
+    path: tests/cypress/videos/
+```
+
+We used version `2.3.0` of the `actions/upload-artifact` action and configured it to always generate an artifact by setting `if: always()`. If you wish to generate them only when a job fails, then you can set it to `if: failure()`.
