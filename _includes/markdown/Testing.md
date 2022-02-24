@@ -45,9 +45,9 @@ cy.visit( `/wp-admin` );
 
 The purpose of E2E testing is to ensure the user-facing features work as expected. In the WordPress context, we can extend that purpose to "working as expected against supported WP versions and plugins/themes". At 10up, we're using GitHub Actions matrix and `wp-env` config override to solve that problem by [generating `wp-env` config](https://github.com/10up/simple-podcasting/blob/develop/tests/bin/set-core-version.js) for [each matrix](https://github.com/10up/simple-podcasting/blob/develop/.github/workflows/test-branch.yml#L30-L31). We're doing it for WP core version only, but it can be adapted and updated to handle more complex configurations.
 
-### Permalinks in multiple configurations
+### Fixing permalinks issue
 
-When testing against non-default (latest) WordPress core, there is [known issue with file permissions](https://github.com/WordPress/gutenberg/issues/28201). This prevents us to use permalinks in testing because `.htaccess` file could not be created in GitHub Actions environment. File permissions could be fixed with [`npm run wp-env run tests-wordpress "chmod -c ugo+w /var/www/html"`](https://github.com/10up/ads-txt/pull/84/files) during the initialization.
+There is [known issue with file permissions](https://github.com/WordPress/gutenberg/issues/28201). This prevents us to use permalinks in testing because `.htaccess` file could not be created in GitHub Actions environment. File permissions could be fixed with [`npm run wp-env run tests-wordpress "chmod -c ugo+w /var/www/html"`](https://github.com/10up/ads-txt/pull/84/files) during the initialization.
 
 ### Debugging Cypress on GitHub Actions
 
