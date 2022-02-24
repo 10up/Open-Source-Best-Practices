@@ -47,7 +47,7 @@ The purpose of E2E testing is to ensure the user-facing features work as expecte
 
 ### Fixing permalinks issue
 
-There is [known issue with file permissions](https://github.com/WordPress/gutenberg/issues/28201). This prevents us to use permalinks in testing because `.htaccess` file could not be created in GitHub Actions environment. File permissions could be fixed with [`npm run wp-env run tests-wordpress "chmod -c ugo+w /var/www/html"`](https://github.com/10up/ads-txt/pull/84/files) during the initialization.
+There is [a known issue with file permissions](https://github.com/WordPress/gutenberg/issues/28201). This prevents us to use permalinks in testing because the `.htaccess` file could not be created in the GitHub Actions environment. File permissions could be fixed with [`npm run wp-env run tests-wordpress "chmod -c ugo+w /var/www/html"`](https://github.com/10up/ads-txt/pull/84/files) during the initialization.
 
 ### Debugging Cypress on GitHub Actions
 
