@@ -154,6 +154,59 @@ All repositories will leverage GitHub's built-in [security fixes feature](https:
 
 All WordPress plugin-related projects should adhere to WordPress Coding Standards (WPCS), like WordPress core, and WordPress VIP Coding Standards (VIPCS).  Using our [WPCS GitHub Action](https://github.com/10up/wpcs-action) across all repos and making sure all Pull Requests are required for this check to pass before merging will ensure that all code output matches community agreed upon expectations.  Non-WordPress plugin projects should attempt to use a community standard for coding standards where they exist and ideally as part of a GitHub Action to act as a check on all Pull Requests.
 
+In addition to PHP, we should keep JS/TS code following standards. For Open Source plugins, it's recommended to use `eslint` and [@wordpress/eslint-plugin](https://www.npmjs.com/package/@wordpress/eslint-plugin):
+
+```json
+#.eslintrc
+{
+	"extends": [ "plugin:@wordpress/eslint-plugin/recommended" ]
+}
+
+```
+
+To ensure the changes follow the project's coding standards, we can use `icrawl/action-eslint` to check the commit/PRs and highlight all errors and warnings with annotations.
+
+[Block for Apple Maps](https://wordpress.org/plugins/maps-block-apple/) is a great example of [using GitHub Actions](https://github.com/10up/maps-block-apple/blob/develop/.github/workflows/test.yml) to check both PHP and JS/TS code:
+
+```
+name: Test
+
+on:
+  push:
+    branches:
+      - develop
+      - trunk
+  pull_request:
+    branches:
+      - develop
+
+jobs:
+  eslint:
+    name: eslint
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: install node v12
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12
+    - name: npm install
+      run: npm install
+    - name: eslint
+      uses: icrawl/action-eslint@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  phpcs:
+    name: WPCS
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: WPCS check
+        uses: 10up/wpcs-action@stable
+        with:
+          use_local_config: true
+```
+
 <h2 id="continuous-integration" class="anchor-heading">Continuous integration {% include Util/link_anchor anchor="continuous-integration" %} {% include Util/top %}</h2>
 
 *Coming soon:* GitHub Actions and Travis configurations
