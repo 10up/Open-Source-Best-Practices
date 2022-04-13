@@ -71,3 +71,37 @@ The simplest configuration is as follows:
 ```
 
 We used version `2.3.0` of the `actions/upload-artifact` action and configured it to always generate an artifact by setting `if: always()`. If you wish to generate them only when a job fails, then you can set it to `if: failure()`.
+
+### Single login for all tests
+
+Cypress automatically clears all cookies before each test to prevent state from building up. This requires to add login workflow `beforeEach` test and cause increase of total time for each test to pass.
+
+Otherwise, it's possible to preserve cookies from being cleared in each test suite or global support:
+
+```javascript
+// tests/cypress/support/index.js
+beforeEach(() => {
+	Cypress.Cookies.defaults({
+		preserve: /^wordpress.*?/,
+	});
+});
+```
+
+Then, the login command only needs to be added once before the test suite:
+
+```javascript
+// tests/cypress/integration/some.test.js
+describe('Test Suite', ()={
+	before(()=>{
+		cy.login();
+	});
+
+	it('Test one', ()=>{
+		// ...
+	});
+
+	it('Test two', ()=>{
+		// ...
+	});
+});
+```
