@@ -37,7 +37,7 @@ This means that we’ll want the following GitHub settings:
 - Settings > Security alerts > Organization and repository administrators
 - Security > Alerts > Automated security fixes
 
-Add a ["Dependency Review" GitHub Action](https://github.com/10up/distributor/blob/develop/.github/workflows/dependency-review.yml) to scan all PRs to ensure no insecure dependencies are added to the project, this paired with Dependabot scanning existing dependencies for newly-insecure issues will help reduce the chance of an insecure dependency being included in project releases.
+In addition, ensure a ["Dependency Review" GitHub Action](https://github.com/10up/distributor/blob/develop/.github/workflows/dependency-review.yml) has been added to scan all PRs to ensure no insecure dependencies are added to the project. This paired with Dependabot scanning existing dependencies for newly-insecure issues will help reduce the chance of an insecure dependency being included in project releases.
 
 <h2 id="release-process" class="anchor-heading">Release Process {% include Util/link_anchor anchor="release-process" %} {% include Util/top %}</h2>
 
