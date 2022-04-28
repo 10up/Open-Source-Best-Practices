@@ -8,8 +8,8 @@ layout: default
 subnav:
   - title: Issue and PR Management
     tag: issue-pr-mgmt
-  - title: WordPress.org Support Reps
-    tag: dotorg-support-reps
+  - title: WordPress.org Support
+    tag: dotorg-support
   - title: Tracking GitHub activity
     tag: slack-channel-github-activity
   - title: Tracking WordPress.org activity
