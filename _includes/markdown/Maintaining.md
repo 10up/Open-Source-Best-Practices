@@ -1,6 +1,17 @@
-Central to a successful open process are setting expectations and respecting the time of other participants, especially when they are volunteers.
+<h2 id="maintainers-contributors" class="anchor-heading">Maintainers and Contributors {% include Util/link_anchor anchor="maintainers-contributors" %} {% include Util/top %}</h2>
 
-- Including a [CONTRIBUTING.md file](https://10up.github.io/Open-Source-Best-Practices/community/#contributing) outlining ways to contribute to a project helps non-maintainers understand how best to contribute.
+When maintaining an open source project, there is a need to have at least one person listed as the "Maintainer".  The rationale for having a Maintainer role for an open source project is because it:
+
+- Allows an individual to become an expert in one or more project. They can then be a "go to" when other engineers have questions internally, when clients have questions, when questions come in on GitHub or WordPress.org, etc.
+- When multiple people act as a Maintainer on a project and responsibility is not shared by a small group across all open source projects it allows us to (hopefully!) release more frequently across our projects
+- Gives engineers a more concrete trajectory to work towards as far as career progress goes
+- Gives engineers the chance to develop skills like communication, providing proper feedback, better testing/reviewing skills, responsibility to get a quality release out, etc. Things they would naturally be learning on client and other projects that they might otherwise not have as many opportunities to work on
+
+The Maintainer role can also be seen as an alternative to a typical "Technical Lead" role on client delivery projects in that it expects someone to help mentor and guide others towards a shared outcome for a project while also helping shape a project's roadmap and provide technical review of implementation details.  Maintainers are listed in a project's CREDITS.md file in the Maintainers section (e.g., [Distributor](https://github.com/10up/distributor/blob/develop/CREDITS.md)).
+
+Similarly, central to a successful open process are setting expectations and respecting the time of other participants, especially when they are volunteers or "Contributors".  The following are expectations in how to communicate with and recognize the efforts from contributors on open source projects.
+
+- Include a [CONTRIBUTING.md file](https://10up.github.io/Open-Source-Best-Practices/community/#contributing) outlining ways to contribute to a project helps non-maintainers understand how best to contribute.
 - Be thankful and specific when including participants, from acknowledging a well-defined issue or a pull request they've opened, to including them in [changelog release notes](https://10up.github.io/Open-Source-Best-Practices/releasing/#changelog) and the [CREDITS.md file](https://10up.github.io/Open-Source-Best-Practices/releasing/#credit-management).
 - Recognize that opening an issue or pull request doesn't necessarily indicate additional time to continue triaging an issue or updating a pull request based on code review / feedback, so you may need to pick up and cover those as a maintainer.
 
