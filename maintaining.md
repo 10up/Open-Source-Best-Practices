@@ -6,6 +6,8 @@ group: navigation
 weight: 3
 layout: default
 subnav:
+  - title: Maintainers and Contributors
+    tag: maintainers-contributors
   - title: Issue and PR Management
     tag: issue-pr-mgmt
   - title: WordPress.org Support
