@@ -29,6 +29,14 @@ Issue triage will primarily be handled by our Open Source Practice leadership as
 - If a pull request hasn't been linked to an existing issue, please add a comment to link them or open a corresponding issue.
 - As issues come in via WordPress.org support requests, respond with a “thanks for your report…”, let them know you're moving the forum report to GitHub, and then provide them the link to the newly opened GitHub issue.
 
+The following GitHub Actions are also recommended on most, if not all, projects:
+
+- [Deploying a plugin to the WordPress.org repository](https://github.com/10up/action-wordpress-plugin-deploy) ([example](https://github.com/10up/eight-day-week/blob/develop/.github/workflows/push-deploy.yml))
+- [Deploying plugin asset/readme updates to the WordPress.org repository](https://github.com/10up/action-wordpress-plugin-asset-update) ([example](https://github.com/10up/eight-day-week/blob/develop/.github/workflows/push-asset-readme-update.yml))
+- [PHP linting without additional codebase dependencies](https://github.com/10up/wpcs-action) ([example](https://github.com/10up/classifai/blob/develop/.github/workflows/lint.yml))
+- [Publishing generated hook documentation to GitHub Pages](https://github.com/10up/actions-wordpress/blob/stable/hookdocs-workflow.md) ([example](https://github.com/10up/distributor/blob/develop/.github/workflows/build-docs.yml))
+- [No Response issue auto-closer](https://github.com/lee-dohm/no-response) ([example](https://github.com/10up/ads-txt/blob/develop/.github/workflows/no-response.yml))
+
 <h2 id="dotorg-support-reps" class="anchor-heading">WordPress.org Support {% include Util/link_anchor anchor="dotorg-support" %} {% include Util/top %}</h2>
 
 We recommend limiting the number of accounts that have access to your plugin on WordPress.org SVN, as this reduces potential attack vectors and minimizes the risk of bad actors nefariously affecting your code.  The downside to this is that the nice “Plugin Author” label and highlight that appears alongside messages from plugin contributors as well as the ability to mark threads as resolved or sticky within the forums is limited to that small number of accounts.  Not to worry, you can use [Plugin Support Reps](https://make.wordpress.org/plugins/2017/09/04/plugin-support-reps/) to add others on your team who will then appear with a nice “Plugin Support” label and highlight alongside their messages in the forums.  Support reps can also mark threads as resolved or sticky, but will not have commit access to the plugin codebase on SVN.  You can assign support reps on the Advanced View on your plugin pages (e.g., https://wordpress.org/plugins/restricted-site-access/advanced/).
