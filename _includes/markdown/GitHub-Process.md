@@ -164,48 +164,11 @@ In addition to PHP, we should keep JS/TS code following standards. For Open Sour
 
 ```
 
-To ensure the changes follow the project's coding standards, we can use `icrawl/action-eslint` to check the commit/PRs and highlight all errors and warnings with annotations.
+Using GitHub Actions is recommended to ensure the changes follow the project's coding standards. To fit with various setup and requirements, we generate the linting JSON report and use `ataylorme/eslint-annotate-action` to highlight all errors and warnings with annotations.
 
-[Block for Apple Maps](https://wordpress.org/plugins/maps-block-apple/) is a great example of [using GitHub Actions](https://github.com/10up/maps-block-apple/blob/develop/.github/workflows/test.yml) to check both PHP and JS/TS code:
+[Block for Apple Maps](https://wordpress.org/plugins/maps-block-apple/) is a great example of [using GitHub Actions](https://github.com/10up/maps-block-apple/blob/develop/.github/workflows/linting.yml) to check both PHP and JS/TS code.
 
-```
-name: Test
-
-on:
-  push:
-    branches:
-      - develop
-      - trunk
-  pull_request:
-    branches:
-      - develop
-
-jobs:
-  eslint:
-    name: eslint
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - name: install node v12
-      uses: actions/setup-node@v1
-      with:
-        node-version: 12
-    - name: npm install
-      run: npm install
-    - name: eslint
-      uses: icrawl/action-eslint@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  phpcs:
-    name: WPCS
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: WPCS check
-        uses: 10up/wpcs-action@stable
-        with:
-          use_local_config: true
-```
+<h2 id="continuous-integration" class="anchor-heading">Continuous integration {% include Util/link_anchor anchor="continuous-integration" %} {% include Util/top %}</h2>
 
 <h2 id="continuous-integration" class="anchor-heading">Continuous integration {% include Util/link_anchor anchor="continuous-integration" %} {% include Util/top %}</h2>
 
