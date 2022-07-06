@@ -170,8 +170,6 @@ Using GitHub Actions is recommended to ensure the changes follow the project's c
 
 <h2 id="continuous-integration" class="anchor-heading">Continuous integration {% include Util/link_anchor anchor="continuous-integration" %} {% include Util/top %}</h2>
 
-<h2 id="continuous-integration" class="anchor-heading">Continuous integration {% include Util/link_anchor anchor="continuous-integration" %} {% include Util/top %}</h2>
-
 *Coming soon:* GitHub Actions and Travis configurations
 
 Changes to our projects should not cause issue with the two most recent major versions of WordPress and the lowest supported version of PHP and above.  Our CI pipelines should be testing for and alerting for any changes that do run afoul of this approach.
