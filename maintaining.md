@@ -18,7 +18,9 @@ subnav:
     tag: slack-channel-dotorg-activity
   - title: Version Control
     tag: version-control
-updated: 22 October 2019
+  - title: WordPress and PHP Minimums
+    tag: wp-php-mins
+updated: 11 July 2022
 ---
 
 <div class="docs-section">
