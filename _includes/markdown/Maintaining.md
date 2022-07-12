@@ -59,7 +59,7 @@ In general we follow the [Version Control guidelines from the 10up Engineering B
 
 Our defined minimum supported versions for WordPress and PHP are set as follows:
 
-- WordPress active major version from the previous year (e.g. when [6.0](https://wordpress.org/news/2022/05/arturo/) was released this would mean [5.7](https://wordpress.org/news/2021/03/esperanza/) is minimum supported version)
+- The active major version of WordPress from one year prior (e.g. when [6.0](https://wordpress.org/news/2022/05/arturo/) was released this would mean [5.7](https://wordpress.org/news/2021/03/esperanza/) is minimum supported version)
 - PHP version 7.4
 
 The WordPress minimum can be updated with each subsequent [major version release](https://wordpress.org/about/history/), noting that depending on the release velocity of the prior year that the minimum may not change or may increase by more than one version.
