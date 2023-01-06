@@ -110,8 +110,7 @@ describe('Test Suite', ()={
 
 We utilize [the new Markdown support](https://github.blog/2022-05-09-supercharging-github-actions-with-job-summaries/) of GH Actions summary to include the test results in the job summary.
 
-To generate the markdown report, we use [`mochawesome`](https://www.npmjs.com/package/cypress-mochawesome-reporter) reporter. The reporter generates JSON and HTML reports. We use `mochawesome` JSON reports by updating the cypress configuration as follows.
-
+To generate the markdown report, we use [`mochawesome`](https://www.npmjs.com/package/cypress-mochawesome-reporter) reporter to generate JSON and HTML reports. We use `mochawesome` JSON reports by updating the Cypress configuration as follows:
 
 ```javascript
 // tests/cypress/cypress-config.js 
@@ -129,7 +128,8 @@ module.exports = defineConfig({
 });
 ```
 
-Then, an additional step in the cypress workflow file to generate Markdown content from JSON reports and update it to GitHub Summary    
+Then, an additional step in the Cypress workflow file to generate Markdown content from JSON reports and update it to GitHub Summary:
+
 ```yaml
 # action.yml
 
@@ -143,4 +143,4 @@ Then, an additional step in the cypress workflow file to generate Markdown conte
     cat ./tests/cypress/reports/mochawesome.md >> $GITHUB_STEP_SUMMARY
 ```
 
-We configured to always update job summary by setting `if: ${{ always() }}`. If you wish to update summary when a job fails, then you can set it to `if: failure()`.
+We configure this to always update job summary by setting `if: ${{ always() }}`. If you wish to update the summary when a job fails, then you can set it to `if: failure()`.
