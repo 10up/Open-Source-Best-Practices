@@ -6,7 +6,7 @@ Aim for conceptual clarity over cleverness and puns. Creativity is good, but a n
 
 <h2 id="licensing" class="anchor-heading">Licensing {% include Util/link_anchor anchor="licensing" %} {% include Util/top %}</h2>
 
-At 10up, any project that is a WordPress plugin or theme should be licensed [GPLv2](https://opensource.org/licenses/GPL-2.0).  Standalone JavaScript libraries or modules can be licensed [MIT](https://opensource.org/licenses/MIT).  We recommend this route as a default, but any other included libraries and integrations must also be taken into consideration before making a final licensing decision.
+At 10up, any project that is a WordPress plugin or theme should be licensed [GPLv2](https://opensource.org/licenses/GPL-2.0).  Standalone JavaScript libraries or modules can be licensed [MIT](https://opensource.org/licenses/MIT).  We recommend this route as a default, but any other included libraries and integrations must also be taken into consideration before making a final licensing decision.  All plugin projects should leverage our [Dependency Review Action](https://github.com/10up/insert-special-characters/blob/develop/.github/workflows/dependency-review.yml) and [GPL-Compatible License Policy](https://github.com/10up/.github/blob/trunk/.github/dependency-review-config.yml) to ensure all plugin dependencies are GPL-compatible.
 
 <h2 id="client-permissions" class="anchor-heading">Client permissions {% include Util/link_anchor anchor="client-permissions" %} {% include Util/top %}</h2>
 
