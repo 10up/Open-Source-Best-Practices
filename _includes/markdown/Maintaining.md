@@ -35,7 +35,7 @@ The following GitHub Actions are also recommended on most, if not all, projects:
 - [Deploying plugin asset/readme updates to the WordPress.org repository](https://github.com/10up/action-wordpress-plugin-asset-update) ([example](https://github.com/10up/eight-day-week/blob/develop/.github/workflows/push-asset-readme-update.yml))
 - [PHP linting without additional codebase dependencies](https://github.com/10up/wpcs-action) ([example](https://github.com/10up/classifai/blob/develop/.github/workflows/lint.yml))
 - [Publishing generated hook documentation to GitHub Pages](https://github.com/10up/actions-wordpress/blob/stable/hookdocs-workflow.md) ([example](https://github.com/10up/distributor/blob/develop/.github/workflows/build-docs.yml))
-- [No Response issue auto-closer](https://github.com/lee-dohm/no-response) ([example](https://github.com/10up/ads-txt/blob/develop/.github/workflows/no-response.yml))
+- [Stale issue auto-closer](https://github.com/actions/stale) ([example](https://github.com/10up/insert-special-characters/blob/develop/.github/workflows/close-stale-issues.yml))
 
 <h2 id="dotorg-support-reps" class="anchor-heading">WordPress.org Support {% include Util/link_anchor anchor="dotorg-support" %} {% include Util/top %}</h2>
 
