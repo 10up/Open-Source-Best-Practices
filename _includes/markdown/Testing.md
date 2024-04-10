@@ -1,3 +1,70 @@
+<h2 id="critical-flows" class="anchor-heading">Critical Flows and Test Cases {% include Util/link_anchor anchor="critical-flows" %} {% include Util/top %}</h2>
+
+### What is a Critical Flow?
+
+Critical Flow is a checklist of High-Priority Test Cases and instructions to run those test cases. This is similar to the Test Suites we use in Software Testing. These cases have a set of specified formats and are useful for checking and testing a plugin.
+
+They're convenient for testing after changes (regression testing), before releasing the final build of the plugin, and for automation (end-to-end testing).
+
+### Format of Critical Flow
+
+After conducting research and considering various use cases, we have established the following format for documenting the critical flow.
+
+Example: [ClassifAI Wiki](https://github.com/10up/classifai/wiki)
+
+You will find two pages with the name:
+
+1. [Critical Flow](https://github.com/10up/classifai/wiki/Critical-Flow)
+2. [Testing Instructions for Critical Flow](https://github.com/10up/classifai/wiki/Testing-Instructions-for-Critical-Flow)
+
+#### Critical Flow
+
+The Critical Flow page acts as a checklist and is organized into five sections:
+
+![](../img/github-wiki-critical-flow.png)
+
+1. **User Type**: This identifies the user role required to run tests, such as admin, editor, subscriber, etc.
+2. **Area**: This denotes the section of test cases related to a specific aspect like admin area, or frontend.
+3. **Flow Name**: This serves as the description or title of the test case.
+4. **Testing Instructions**: This provides a link to the specific test case's testing instructions.
+5. **E2E Status**: This keeps track of whether an end-to-end (E2E) script has been written for the test case.
+
+#### Testing Instructions for Critical Flow
+
+![](../img/github-wiki-test-cases.png)
+
+The Testing Instructions page serves as a guide for a person who is a beginner on the project and wants to run tests. This guide assists individuals in understanding "How to Test a Particular Test Case" by running “Testing Steps” and “Expected Results” after running the test.
+
+This page includes the "Title" of the test case (the same title used in Critical Flow), "Testing Steps," and "Expected Result." Additionally, You can add any extra information, such as "Screenshots" or any other detail that will help the user to execute the test case easily.
+
+### Use of Critical Flow
+
+The Critical Flow document serves various purposes within our workflow. Primarily, it aids in the following areas.
+
+#### E2E Test Script Creation
+
+Facilitating the development of end-to-end (E2E) test scripts, particularly for frameworks like Playwright or Cypress. The structured format of Critical Flow assists in translating testing requirements into automated scripts.
+
+#### Manual Regression Testing
+
+Enabling the execution of manual regression testing before releasing a new build. The checklist-style organization of Critical Flow ensures comprehensive coverage of test cases, helping identify potential issues and regressions.
+
+#### Pre-Release Testing
+
+Conducting quick tests before deploying a new build. The document ensures that essential test cases are verified to maintain the stability and reliability of the software.
+
+#### Software Upgrade Checks
+
+Performing tests before related software upgrades, such as those for WordPress or PHP versions. This proactive approach helps anticipate and address any compatibility issues that may arise during or after the upgrade.
+
+In summary, the Critical Flow document plays an important role in our testing processes, supporting both automated and manual testing efforts across various scenarios, from E2E script development to pre-release and upgrade testing.
+
+### Location and Tools for Critical Flow
+
+![](../img/github-wiki.png)
+
+We have chosen GitHub Wiki Pages as the designated location for storing our test case documentation. If the Wiki tab is not visible in the GitHub project repository, kindly request your GitHub admin to enable the Wiki feature. Note that wikis are not available on private repos, so publicly open source your code! ;)
+
 <h2 id="code-coverage" class="anchor-heading">Code coverage {% include Util/link_anchor anchor="code-coverage" %} {% include Util/top %}</h2>
 
 Every feature should be accompanied by tests and all pull requests should come with associated tests, all living within the `tests` directory.  While we have no intention of striving for 100% code coverage, we should aim for above 80% with above 90% being the ideal.  We should also look to utilize a code coverage / automated code review tool like [Coveralls](https://coveralls.io/), [Code Climate](https://codeclimate.com/), or [Codecov](https://codecov.io/) and ensure that is a pull request requirement before merging.
