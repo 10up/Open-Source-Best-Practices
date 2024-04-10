@@ -10,9 +10,9 @@ subnav:
     tag: critical-flows
   - title: Code Coverage
     tag: code-coverage
-updated: 22 October 2019
   - title: E2E Testing
     tag: e2e-testing
+updated: 10 April 2024
 ---
 
 <div class="docs-section">
