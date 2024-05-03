@@ -59,9 +59,9 @@ In general we follow the [Version Control guidelines from the 10up Engineering B
 
 Our defined minimum supported versions for WordPress and PHP are set as follows:
 
-- The active major version of WordPress from one year prior (e.g. when [6.0](https://wordpress.org/news/2022/05/arturo/) was released this would mean [5.7](https://wordpress.org/news/2021/03/esperanza/) is minimum supported version)
-- PHP version 7.4
+- WordPress L-2 support method where we support the current major version and the prior two major versions (e.g. when [6.0](https://wordpress.org/news/2022/05/arturo/) was released this would mean [5.8](https://wordpress.org/news/2021/03/esperanza/) is minimum supported version)
+- PHP version 8.0
 
-The WordPress minimum can be updated with each subsequent [major version release](https://wordpress.org/about/history/), noting that depending on the release velocity of the prior year that the minimum may not change or may increase by more than one version.
+The WordPress minimum should be updated with each subsequent [major version release](https://wordpress.org/about/history/), but may be increased for specific projects where fixing a bug or adding a new feature is specifically more simpler by not supporting as many WordPress versions.
 
-We expect to review the PHP minimum heading into 2023 and bump that to 8.0 (with the coming end-of-life support of 7.4 and increase in [WordPress core support for 8.0+](https://make.wordpress.org/core/handbook/references/php-compatibility-and-wordpress-versions/)).  PHP supported versions and end-of-life timelines can be viewed on the [PHP Supported Versions page](https://www.php.net/supported-versions).
+We expect to review the PHP minimum heading into 2025 and bump that to 8.2 (with 8.1 already in the "security only fixes" support level and increase in [WordPress core support up to 8.3](https://make.wordpress.org/core/handbook/references/php-compatibility-and-wordpress-versions/)).  PHP supported versions and end-of-life timelines can be viewed on the [PHP Supported Versions page](https://www.php.net/supported-versions).
