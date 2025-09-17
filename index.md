@@ -36,63 +36,48 @@ updated: 25 November 2019
 	</div>
 
     	<div class="col">
-		<h3><a href="{{ site.baseurl }}/releasing/#top">Releasing Code</a></h3>
+		<h3><a href="{{ site.baseurl }}/starting/#top">Starting or Releasing a Project</a></h3>
 		<ul>
-			<li><a href="{{ site.baseurl }}/releasing/#naming">Naming</a></li>
-			<li><a href="{{ site.baseurl }}/releasing/#licensing">Licensing</a></li>
-			<li><a href="{{ site.baseurl }}/releasing/#client-permissions">Client Permissions</a></li>
-			<li><a href="{{ site.baseurl }}/releasing/#choosing-tools">Choosing Tools</a></li>
-			<li><a href="{{ site.baseurl }}/releasing/#accessibility">Accessibility</a></li>
-			<li><a href="{{ site.baseurl }}/releasing/#security">Security</a></li>
-			<li><a href="{{ site.baseurl }}/releasing/#release-process">Release Process</a></li>
-			<li><a href="{{ site.baseurl }}/releasing/#changelog">Changelog</a></li>
-			<li><a href="{{ site.baseurl }}/releasing/#credit-management">Credit Management</a></li>
+			<li><a href="{{ site.baseurl }}/community/#readme">README.md Best Practices</a></li>
+			<li><a href="{{ site.baseurl }}/releasing/#licensing">License File</a></li>
+			<li><a href="{{ site.baseurl }}/community/#contributing">Contribution Guidelines</a></li>
+			<li><a href="{{ site.baseurl }}/community/#code-of-conduct">Code of Conduct</a></li>
+			<li><a href="{{ site.baseurl }}/releasing/#changelog">Semantic Versioning & Release Tags</a></li>
+			<li><a href="{{ site.baseurl }}/github-process/#issue-pr-labels">Initial Repo Setup</a></li>
 		</ul>
 	</div>
 
 	<div class="col">
-  		<h3><a href="{{ site.baseurl }}/maintaining/#top">Maintenance Process</a></h3>
+  		<h3><a href="{{ site.baseurl }}/maintaining/#top">Maintaining, Supporting, and Enhancing</a></h3>
 		<ul>
-			<li><a href="{{ site.baseurl }}/maintaining/#maintainers-contributors">Maintainers and Contributors</a></li>
-			<li><a href="{{ site.baseurl }}/maintaining/#issue-pr-mgmt">Issue and PR Management</a></li>
-			<li><a href="{{ site.baseurl }}/maintaining/#dotorg-support">WordPress.org Support</a></li>
-			<li><a href="{{ site.baseurl }}/maintaining/#slack-channel-github-activity">Tracking GitHub activity</a></li>
-			<li><a href="{{ site.baseurl }}/maintaining/#dslack-channel-dotorg-activity">Tracking WordPress.org activity</a></li>
-			<li><a href="{{ site.baseurl }}/maintaining/#version-control">Version Control</a></li>
-			<li><a href="{{ site.baseurl }}/maintaining/#wp-php-mins">WordPress and PHP Minimums</a></li>
+			<li><a href="{{ site.baseurl }}/releasing/#changelog">CHANGELOG Standards</a></li>
+			<li><a href="{{ site.baseurl }}/github-process/#issue-pr-labels">Issue Triage & Labeling</a></li>
+			<li><a href="{{ site.baseurl }}/maintaining/#issue-pr-mgmt">Pull Request Guidelines</a></li>
+			<li><a href="{{ site.baseurl }}/github-process/#continuous-integration">Continuous Integration / Testing</a></li>
+			<li><a href="{{ site.baseurl }}/github-process/#documentation">Documentation Standards</a></li>
+			<li><a href="{{ site.baseurl }}/releasing/#security">Security Handling</a></li>
+			<li><a href="{{ site.baseurl }}/maintaining/#maintainers-contributors">Communication Best Practices</a></li>
 		</ul>
   	</div>
 
 	<div class="col">
-		<h3><a href="{{ site.baseurl }}/community/#top">Community</a></h3>
+		<h3><a href="{{ site.baseurl }}/growing/#top">Growing and Sustaining a Project</a></h3>
 		<ul>
-			<li><a href="{{ site.baseurl }}/community/#readme">Readme</a></li>
-			<li><a href="{{ site.baseurl }}/community/#code-of-conduct">Code of Conduct</a></li>
-			<li><a href="{{ site.baseurl }}/community/#contributing">Contributing Guidelines</a></li>
+			<li><a href="{{ site.baseurl }}/growing/#governance">Governance Models</a></li>
+			<li><a href="{{ site.baseurl }}/releasing/#credit-management">Community Recognition</a></li>
+			<li><a href="{{ site.baseurl }}/github-process/#milestones">Roadmaps & Planning</a></li>
+			<li><a href="{{ site.baseurl }}/growing/#sponsorships">Sponsorships / Funding</a></li>
+			<li><a href="{{ site.baseurl }}/growing/#succession">Succession Planning</a></li>
+			<li><a href="{{ site.baseurl }}/growing/#sunsetting">Sunsetting/Archiving Projects</a></li>
 		</ul>
 	</div>
 
 	<div class="col">
-		<h3><a href="{{ site.baseurl }}/github-process/#top">GitHub Process</a></h3>
+		<h3><a href="{{ site.baseurl }}/references/#top">References and Resources</a></h3>
 		<ul>
-			<li><a href="{{ site.baseurl }}/github-process/#issue-pr-labels">Issue and PR labels</a></li>
-			<li><a href="{{ site.baseurl }}/github-process/#milestones">Milestones</a></li>
-			<li><a href="{{ site.baseurl }}/github-process/#branching-merging-deploying">Branching, Merging, and Deploying</a></li>
-			<li><a href="{{ site.baseurl }}/github-process/#documentation">Documentation</a></li>
-			<li><a href="{{ site.baseurl }}/github-process/#support-levels">Support Levels</a></li>
-			<li><a href="{{ site.baseurl }}/github-process/#opengraph-image">OpenGraph Image</a></li>
-			<li><a href="{{ site.baseurl }}/github-process/#dependency-management">Dependency Management</a></li>
-			<li><a href="{{ site.baseurl }}/github-process/#coding-standards">Coding Standards</a></li>
-			<li><a href="{{ site.baseurl }}/github-process/#continuous-integration">Continuous Integration</a></li>
-		</ul>
-	</div>
-
-	<div class="col">
-		<h3><a href="{{ site.baseurl }}/testing/#top">Testing</a></h3>
-		<ul>
-		    <li><a href="{{ site.baseurl }}/testing/#critical-flows">Critical Flows and Test Cases</a></li>
-			<li><a href="{{ site.baseurl }}/testing/#code-coverage">Code Coverage</a></li>
-			<li><a href="{{ site.baseurl }}/testing/#e2e-testing">E2E testing</a></li>
+			<li><a href="{{ site.baseurl }}/references/#tools">Recommended Tools & Services</a></li>
+			<li><a href="{{ site.baseurl }}/references/#standards">External Standards (SPDX, OSI, SemVer)</a></li>
+			<li><a href="{{ site.baseurl }}/references/#examples">Example Repositories</a></li>
 		</ul>
 	</div>
 </div>
