@@ -17,3 +17,7 @@ kramdown:
   input: GFM
 sass:
   sass_dir: _includes/_sass
+
+# Plugins
+plugins:
+  - jekyll-redirect-from

@@ -6,6 +6,9 @@ nav: Home
 group: navigation
 weight: 1
 layout: default
+redirect_from:
+  - /docs/
+  - /docs/index.html
 updated: 25 November 2019
 ---
 

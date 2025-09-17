@@ -5,6 +5,8 @@ nav: Starting
 group: navigation
 weight: 2
 layout: default
+redirect_from:
+  - /community/
 subnav:
   - title: Readme
     tag: readme

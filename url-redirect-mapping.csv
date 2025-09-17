@@ -1,0 +1,37 @@
+Old URL,New URL,Redirect Method,Notes
+/community/,/starting/community/,redirect_from,Community page moved to starting section
+/releasing/,/starting/releasing/,redirect_from,Releasing page moved to starting section
+/maintaining/,/maintaining/maintaining/,redirect_from,Maintaining page moved to maintaining section
+/github-process/,/maintaining/github-process/,redirect_from,GitHub Process page moved to maintaining section
+/testing/,/maintaining/testing/,redirect_from,Testing page moved to maintaining section
+/community/#readme,/starting/community/#readme,redirect_from,README section within community
+/community/#contributing,/starting/community/#contributing,redirect_from,Contributing section within community
+/community/#code-of-conduct,/starting/community/#code-of-conduct,redirect_from,Code of Conduct section within community
+/releasing/#naming,/starting/releasing/#naming,redirect_from,Naming section within releasing
+/releasing/#licensing,/starting/releasing/#licensing,redirect_from,Licensing section within releasing
+/releasing/#client-permissions,/starting/releasing/#client-permissions,redirect_from,Client Permissions section within releasing
+/releasing/#choosing-tools,/starting/releasing/#choosing-tools,redirect_from,Choosing Tools section within releasing
+/releasing/#accessibility,/starting/releasing/#accessibility,redirect_from,Accessibility section within releasing
+/releasing/#security,/starting/releasing/#security,redirect_from,Security section within releasing
+/releasing/#release-process,/starting/releasing/#release-process,redirect_from,Release Process section within releasing
+/releasing/#changelog,/starting/releasing/#changelog,redirect_from,Changelog section within releasing
+/releasing/#credit-management,/starting/releasing/#credit-management,redirect_from,Credit Management section within releasing
+/maintaining/#maintainers-contributors,/maintaining/maintaining/#maintainers-contributors,redirect_from,Maintainers section within maintaining
+/maintaining/#issue-pr-mgmt,/maintaining/maintaining/#issue-pr-mgmt,redirect_from,Issue PR Management section within maintaining
+/maintaining/#dotorg-support,/maintaining/maintaining/#dotorg-support,redirect_from,WordPress.org Support section within maintaining
+/maintaining/#slack-channel-github-activity,/maintaining/maintaining/#slack-channel-github-activity,redirect_from,GitHub Activity section within maintaining
+/maintaining/#dslack-channel-dotorg-activity,/maintaining/maintaining/#dslack-channel-dotorg-activity,redirect_from,WordPress.org Activity section within maintaining
+/maintaining/#version-control,/maintaining/maintaining/#version-control,redirect_from,Version Control section within maintaining
+/maintaining/#wp-php-mins,/maintaining/maintaining/#wp-php-mins,redirect_from,WordPress PHP Minimums section within maintaining
+/github-process/#issue-pr-labels,/maintaining/github-process/#issue-pr-labels,redirect_from,Issue PR Labels section within github-process
+/github-process/#milestones,/maintaining/github-process/#milestones,redirect_from,Milestones section within github-process
+/github-process/#branching-merging-deploying,/maintaining/github-process/#branching-merging-deploying,redirect_from,Branching section within github-process
+/github-process/#documentation,/maintaining/github-process/#documentation,redirect_from,Documentation section within github-process
+/github-process/#support-levels,/maintaining/github-process/#support-levels,redirect_from,Support Levels section within github-process
+/github-process/#opengraph-image,/maintaining/github-process/#opengraph-image,redirect_from,OpenGraph Image section within github-process
+/github-process/#dependency-management,/maintaining/github-process/#dependency-management,redirect_from,Dependency Management section within github-process
+/github-process/#coding-standards,/maintaining/github-process/#coding-standards,redirect_from,Coding Standards section within github-process
+/github-process/#continuous-integration,/maintaining/github-process/#continuous-integration,redirect_from,Continuous Integration section within github-process
+/testing/#critical-flows,/maintaining/testing/#critical-flows,redirect_from,Critical Flows section within testing
+/testing/#code-coverage,/maintaining/testing/#code-coverage,redirect_from,Code Coverage section within testing
+/testing/#e2e-testing,/maintaining/testing/#e2e-testing,redirect_from,E2E Testing section within testing

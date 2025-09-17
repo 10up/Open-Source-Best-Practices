@@ -5,6 +5,8 @@ nav: Maintaining
 group: navigation
 weight: 3
 layout: default
+redirect_from:
+  - /maintaining/
 subnav:
   - title: Maintainers and Contributors
     tag: maintainers-contributors

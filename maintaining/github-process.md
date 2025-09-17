@@ -5,6 +5,8 @@ nav: Maintaining
 group: navigation
 weight: 3
 layout: default
+redirect_from:
+  - /github-process/
 subnav:
   - title: Issue and PR labels
     tag: issue-pr-labels

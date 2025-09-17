@@ -5,6 +5,8 @@ nav: Maintaining
 group: navigation
 weight: 3
 layout: default
+redirect_from:
+  - /testing/
 subnav:
   - title: Critical Flows and Test Cases
     tag: critical-flows
