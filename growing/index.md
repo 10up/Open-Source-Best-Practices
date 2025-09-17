@@ -52,8 +52,8 @@ updated: 25 November 2019
 		<p>Key areas for project growth and sustainability:</p>
 		<ol>
 			<li><a href="{{ site.baseurl }}/growing/#governance">Establish clear governance</a></li>
-			<li><a href="{{ site.baseurl }}/releasing/#credit-management">Recognize contributors</a></li>
-			<li><a href="{{ site.baseurl }}/github-process/#milestones">Plan with roadmaps</a></li>
+			<li><a href="{{ site.baseurl }}/starting/releasing/#credit-management">Recognize contributors</a></li>
+			<li><a href="{{ site.baseurl }}/maintaining/github-process/#milestones">Plan with roadmaps</a></li>
 			<li><a href="{{ site.baseurl }}/growing/#sponsorships">Explore funding options</a></li>
 			<li><a href="{{ site.baseurl }}/growing/#succession">Plan for the future</a></li>
 		</ol>

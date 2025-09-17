@@ -1,0 +1,12 @@
+Current Title,Current File Path,Proposed Section,New File Path,Notes
+Introduction,index.md,Homepage,/index.md,Stays as homepage
+Community,community.md,Starting,/starting/community.md,README, Code of Conduct, Contributing Guidelines
+Releasing Code,releasing.md,Starting,/starting/releasing.md,Naming, Licensing, Client Permissions, Choosing Tools, Accessibility, Security, Release Process, Changelog, Team and Credit Management
+Maintenance Process,maintaining.md,Maintaining,/maintaining/maintaining.md,Maintainers and Contributors, Issue and PR Management, WordPress.org Support, Tracking GitHub activity, Tracking WordPress.org activity, Version Control, WordPress and PHP Minimums
+GitHub Process,github-process.md,Maintaining,/maintaining/github-process.md,Issue and PR labels, Milestones, Branching Merging and Deploying, Documentation, Support Levels, OpenGraph Image, Dependency Management, Coding Standards, Continuous Integration
+Testing,testing.md,Maintaining,/maintaining/testing.md,Critical Flows and Test Cases, Code Coverage, E2E Testing
+CODE_OF_CONDUCT.md,CODE_OF_CONDUCT.md,Repository Management,/,NOT MOVED - Repository management file
+CONTRIBUTING.md,CONTRIBUTING.md,Repository Management,/,NOT MOVED - Repository management file
+CREDITS.md,CREDITS.md,Repository Management,/,NOT MOVED - Repository management file
+LICENSE.md,LICENSE.md,Repository Management,/,NOT MOVED - Repository management file
+README.md,README.md,Repository Management,/,NOT MOVED - Repository management file

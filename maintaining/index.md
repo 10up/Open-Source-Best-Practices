@@ -53,11 +53,11 @@ updated: 25 November 2019
 		<h3>Next steps</h3>
 		<p>Focus on these critical maintenance areas:</p>
 		<ol>
-			<li><a href="{{ site.baseurl }}/releasing/#changelog">Keep changelogs up to date</a></li>
-			<li><a href="{{ site.baseurl }}/github-process/#issue-pr-labels">Organize issues and PRs effectively</a></li>
-			<li><a href="{{ site.baseurl }}/maintaining/#issue-pr-mgmt">Streamline pull request workflows</a></li>
-			<li><a href="{{ site.baseurl }}/github-process/#continuous-integration">Maintain robust CI/CD</a></li>
-			<li><a href="{{ site.baseurl }}/releasing/#security">Handle security responsibly</a></li>
+			<li><a href="{{ site.baseurl }}/starting/releasing/#changelog">Keep changelogs up to date</a></li>
+			<li><a href="{{ site.baseurl }}/maintaining/github-process/#issue-pr-labels">Organize issues and PRs effectively</a></li>
+			<li><a href="{{ site.baseurl }}/maintaining/maintaining/#issue-pr-mgmt">Streamline pull request workflows</a></li>
+			<li><a href="{{ site.baseurl }}/maintaining/github-process/#continuous-integration">Maintain robust CI/CD</a></li>
+			<li><a href="{{ site.baseurl }}/starting/releasing/#security">Handle security responsibly</a></li>
 		</ol>
 	</div>
 </div>

@@ -51,11 +51,11 @@ updated: 25 November 2019
 		<h3>Next steps</h3>
 		<p>If you're new to open source, start with these essential steps:</p>
 		<ol>
-			<li><a href="{{ site.baseurl }}/community/#readme">Create a comprehensive README</a></li>
-			<li><a href="{{ site.baseurl }}/releasing/#licensing">Choose and add a license</a></li>
-			<li><a href="{{ site.baseurl }}/community/#contributing">Set up contribution guidelines</a></li>
-			<li><a href="{{ site.baseurl }}/community/#code-of-conduct">Add a code of conduct</a></li>
-			<li><a href="{{ site.baseurl }}/github-process/#issue-pr-labels">Configure your repository</a></li>
+			<li><a href="{{ site.baseurl }}/starting/community/#readme">Create a comprehensive README</a></li>
+			<li><a href="{{ site.baseurl }}/starting/releasing/#licensing">Choose and add a license</a></li>
+			<li><a href="{{ site.baseurl }}/starting/community/#contributing">Set up contribution guidelines</a></li>
+			<li><a href="{{ site.baseurl }}/starting/community/#code-of-conduct">Add a code of conduct</a></li>
+			<li><a href="{{ site.baseurl }}/maintaining/github-process/#issue-pr-labels">Configure your repository</a></li>
 		</ol>
 	</div>
 </div>

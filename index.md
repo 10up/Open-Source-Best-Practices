@@ -38,25 +38,25 @@ updated: 25 November 2019
     	<div class="col">
 		<h3><a href="{{ site.baseurl }}/starting/#top">Starting or Releasing a Project</a></h3>
 		<ul>
-			<li><a href="{{ site.baseurl }}/community/#readme">README.md Best Practices</a></li>
-			<li><a href="{{ site.baseurl }}/releasing/#licensing">License File</a></li>
-			<li><a href="{{ site.baseurl }}/community/#contributing">Contribution Guidelines</a></li>
-			<li><a href="{{ site.baseurl }}/community/#code-of-conduct">Code of Conduct</a></li>
-			<li><a href="{{ site.baseurl }}/releasing/#changelog">Semantic Versioning & Release Tags</a></li>
-			<li><a href="{{ site.baseurl }}/github-process/#issue-pr-labels">Initial Repo Setup</a></li>
+			<li><a href="{{ site.baseurl }}/starting/community/#readme">README.md Best Practices</a></li>
+			<li><a href="{{ site.baseurl }}/starting/releasing/#licensing">License File</a></li>
+			<li><a href="{{ site.baseurl }}/starting/community/#contributing">Contribution Guidelines</a></li>
+			<li><a href="{{ site.baseurl }}/starting/community/#code-of-conduct">Code of Conduct</a></li>
+			<li><a href="{{ site.baseurl }}/starting/releasing/#changelog">Semantic Versioning & Release Tags</a></li>
+			<li><a href="{{ site.baseurl }}/maintaining/github-process/#issue-pr-labels">Initial Repo Setup</a></li>
 		</ul>
 	</div>
 
 	<div class="col">
   		<h3><a href="{{ site.baseurl }}/maintaining/#top">Maintaining, Supporting, and Enhancing</a></h3>
 		<ul>
-			<li><a href="{{ site.baseurl }}/releasing/#changelog">CHANGELOG Standards</a></li>
-			<li><a href="{{ site.baseurl }}/github-process/#issue-pr-labels">Issue Triage & Labeling</a></li>
-			<li><a href="{{ site.baseurl }}/maintaining/#issue-pr-mgmt">Pull Request Guidelines</a></li>
-			<li><a href="{{ site.baseurl }}/github-process/#continuous-integration">Continuous Integration / Testing</a></li>
-			<li><a href="{{ site.baseurl }}/github-process/#documentation">Documentation Standards</a></li>
-			<li><a href="{{ site.baseurl }}/releasing/#security">Security Handling</a></li>
-			<li><a href="{{ site.baseurl }}/maintaining/#maintainers-contributors">Communication Best Practices</a></li>
+			<li><a href="{{ site.baseurl }}/starting/releasing/#changelog">CHANGELOG Standards</a></li>
+			<li><a href="{{ site.baseurl }}/maintaining/github-process/#issue-pr-labels">Issue Triage & Labeling</a></li>
+			<li><a href="{{ site.baseurl }}/maintaining/maintaining/#issue-pr-mgmt">Pull Request Guidelines</a></li>
+			<li><a href="{{ site.baseurl }}/maintaining/github-process/#continuous-integration">Continuous Integration / Testing</a></li>
+			<li><a href="{{ site.baseurl }}/maintaining/github-process/#documentation">Documentation Standards</a></li>
+			<li><a href="{{ site.baseurl }}/starting/releasing/#security">Security Handling</a></li>
+			<li><a href="{{ site.baseurl }}/maintaining/maintaining/#maintainers-contributors">Communication Best Practices</a></li>
 		</ul>
   	</div>
 
@@ -64,8 +64,8 @@ updated: 25 November 2019
 		<h3><a href="{{ site.baseurl }}/growing/#top">Growing and Sustaining a Project</a></h3>
 		<ul>
 			<li><a href="{{ site.baseurl }}/growing/#governance">Governance Models</a></li>
-			<li><a href="{{ site.baseurl }}/releasing/#credit-management">Community Recognition</a></li>
-			<li><a href="{{ site.baseurl }}/github-process/#milestones">Roadmaps & Planning</a></li>
+			<li><a href="{{ site.baseurl }}/starting/releasing/#credit-management">Community Recognition</a></li>
+			<li><a href="{{ site.baseurl }}/maintaining/github-process/#milestones">Roadmaps & Planning</a></li>
 			<li><a href="{{ site.baseurl }}/growing/#sponsorships">Sponsorships / Funding</a></li>
 			<li><a href="{{ site.baseurl }}/growing/#succession">Succession Planning</a></li>
 			<li><a href="{{ site.baseurl }}/growing/#sunsetting">Sunsetting/Archiving Projects</a></li>
