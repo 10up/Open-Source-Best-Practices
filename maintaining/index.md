@@ -30,29 +30,27 @@ updated: 25 November 2019
 	</header>
 
 	<div class="col">
-		<h3>Who is this section for?</h3>
+		<h3>Who this is for</h3>
 		<ul>
-			<li>Project maintainers managing active repositories</li>
+			<li>Maintainers of active projects who want to improve quality</li>
 			<li>Teams supporting existing open source projects</li>
-			<li>Contributors looking to improve project processes</li>
+			<li>Contributors looking to streamline contributions and set expectations</li>
 		</ul>
 	</div>
 
 	<div class="col">
-		<h3>What you'll learn</h3>
+		<h3>What you'll find here</h3>
 		<ul>
-			<li>Maintaining proper changelogs and versioning</li>
-			<li>Effective issue triage and labeling strategies</li>
-			<li>Pull request review and management processes</li>
-			<li>Setting up continuous integration and testing</li>
-			<li>Documentation maintenance and standards</li>
-			<li>Security vulnerability handling</li>
+			<li>How to manage issues and pull requests</li>
+			<li>Setting up CI/testing workflows</li>
+			<li>Writing changelogs and documentation</li>
+			<li>Handling security and support</li>
 			<li>Community communication best practices</li>
 		</ul>
 	</div>
 
 	<div class="col">
-		<h3>Key Areas</h3>
+		<h3>Next steps</h3>
 		<p>Focus on these critical maintenance areas:</p>
 		<ol>
 			<li><a href="{{ site.baseurl }}/releasing/#changelog">Keep changelogs up to date</a></li>

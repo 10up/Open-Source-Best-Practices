@@ -28,29 +28,27 @@ updated: 25 November 2019
 	</header>
 
 	<div class="col">
-		<h3>Who is this section for?</h3>
+		<h3>Who this is for</h3>
 		<ul>
-			<li>Maintainers of mature, growing projects</li>
-			<li>Communities looking to establish governance</li>
+			<li>Project leads looking to grow their community</li>
+			<li>Maintainers seeking to scale governance</li>
 			<li>Projects seeking long-term sustainability</li>
-			<li>Organizations managing multiple open source projects</li>
 		</ul>
 	</div>
 
 	<div class="col">
-		<h3>What you'll learn</h3>
+		<h3>What you'll find here</h3>
 		<ul>
-			<li>Establishing effective governance models</li>
-			<li>Recognizing and rewarding community contributions</li>
-			<li>Creating and maintaining project roadmaps</li>
-			<li>Exploring funding and sponsorship opportunities</li>
-			<li>Planning for maintainer succession</li>
-			<li>Gracefully sunsetting or archiving projects</li>
+			<li>Community engagement and recognition</li>
+			<li>Roadmaps and project planning</li>
+			<li>Governance structures</li>
+			<li>Funding and sponsorship options</li>
+			<li>Sunsetting projects responsibly</li>
 		</ul>
 	</div>
 
 	<div class="col">
-		<h3>Growth Strategies</h3>
+		<h3>Next steps</h3>
 		<p>Key areas for project growth and sustainability:</p>
 		<ol>
 			<li><a href="{{ site.baseurl }}/growing/#governance">Establish clear governance</a></li>

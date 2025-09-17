@@ -28,27 +28,27 @@ updated: 25 November 2019
 	</header>
 
 	<div class="col">
-		<h3>Who is this section for?</h3>
+		<h3>Who this is for</h3>
 		<ul>
-			<li>Developers releasing their first open source project</li>
-			<li>Teams starting new open source initiatives</li>
+			<li>People planning to publish their first repo</li>
+			<li>Teams who want a checklist before announcing a new open source project</li>
 			<li>Anyone looking to establish proper project foundations</li>
 		</ul>
 	</div>
 
 	<div class="col">
-		<h3>What you'll learn</h3>
+		<h3>What you'll find here</h3>
 		<ul>
-			<li>How to create effective README files</li>
-			<li>Choosing and implementing proper licensing</li>
-			<li>Setting up contribution guidelines and code of conduct</li>
-			<li>Understanding semantic versioning and release management</li>
-			<li>Initial repository setup and configuration</li>
+			<li>How to set up a repo for success</li>
+			<li>Choosing a license and adding a Code of Conduct</li>
+			<li>Writing a clear README and contribution guidelines</li>
+			<li>Versioning and release basics</li>
+			<li>Initial repository configuration and best practices</li>
 		</ul>
 	</div>
 
 	<div class="col">
-		<h3>Quick Start</h3>
+		<h3>Next steps</h3>
 		<p>If you're new to open source, start with these essential steps:</p>
 		<ol>
 			<li><a href="{{ site.baseurl }}/community/#readme">Create a comprehensive README</a></li>

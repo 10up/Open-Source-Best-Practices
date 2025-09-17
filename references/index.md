@@ -22,33 +22,32 @@ updated: 25 November 2019
 	</header>
 
 	<div class="col">
-		<h3>Who is this section for?</h3>
+		<h3>Who this is for</h3>
 		<ul>
-			<li>Anyone looking for tools and services</li>
-			<li>Projects needing to comply with standards</li>
-			<li>Developers seeking example implementations</li>
-			<li>Maintainers researching best practices</li>
+			<li>Anyone who wants quick access to tools, standards, and examples</li>
+			<li>Projects needing to comply with industry standards</li>
+			<li>Developers seeking example implementations beyond the main guides</li>
 		</ul>
 	</div>
 
 	<div class="col">
-		<h3>What you'll find</h3>
+		<h3>What you'll find here</h3>
 		<ul>
-			<li>Curated lists of recommended tools and services</li>
-			<li>Information about external standards and compliance</li>
-			<li>Example repositories demonstrating best practices</li>
+			<li>Recommended tooling (CI providers, automation bots)</li>
+			<li>Industry standards (SPDX, OSI, SemVer)</li>
+			<li>Example repositories with strong practices</li>
 			<li>Links to authoritative resources and documentation</li>
 		</ul>
 	</div>
 
 	<div class="col">
-		<h3>Quick Reference</h3>
+		<h3>Next steps</h3>
 		<p>Essential resources for open source projects:</p>
-		<ul>
+		<ol>
 			<li><a href="{{ site.baseurl }}/references/#tools">Tools & Services</a> - Recommended tooling</li>
 			<li><a href="{{ site.baseurl }}/references/#standards">Standards</a> - SPDX, OSI, SemVer compliance</li>
 			<li><a href="{{ site.baseurl }}/references/#examples">Examples</a> - Best practice repositories</li>
-		</ul>
+		</ol>
 	</div>
 
 	<div class="col">
