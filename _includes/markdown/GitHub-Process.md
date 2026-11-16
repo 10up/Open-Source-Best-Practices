@@ -36,13 +36,29 @@ All repositories should also have at least one numbered milestone available that
 
 <h2 id="branching-merging-deploying" class="anchor-heading">Branching, Merging, and Deploying {% include Util/link_anchor anchor="branching-merging-deploying" %} {% include Util/top %}</h2>
 
-Each repository should have a `trunk` and `develop` branch with `develop` being the default branch.  [Branching and Deploying should follow the processes outlined in the Engineering Best Practices for plugins](https://10up.github.io/Engineering-Best-Practices/version-control/#plugins).  Similarly, we should [protect the `trunk` branch as outlined in the Engineering Best Practices](https://10up.github.io/Engineering-Best-Practices/version-control/#protecting-the-trunk-branch).  Merges should be handled as [non-fast-forwards merges as outlined in the Engineering Best Practices](https://10up.github.io/Engineering-Best-Practices/version-control/#merges) and not squash merges so that the `trunk` branch maintains full commit and code author history, this is done for transparency and to honor all contributions to our open source work.
-This means that we’ll want the following GitHub settings:
+Each repository should have a `trunk` and `develop` branch with `develop` being the default branch.  [Branching and Deploying should follow the processes outlined in the Engineering Best Practices for plugins](https://10up.github.io/Engineering-Best-Practices/version-control/#plugins).  Similarly, we should [protect the `trunk` branch as outlined in the Engineering Best Practices](https://10up.github.io/Engineering-Best-Practices/version-control/#protecting-the-trunk-branch).
 
-![](../img/github-settings-options-merge-button.png)
-- Settings > Options > Merge button: Allow merge commits
-- Settings > Options > Merge button: Allow squash merging
-- Settings > Options > Merge button: Allow rebase merging
+<h3 id="squash-merging" class="anchor-heading">Squash Merging {% include Util/link_anchor anchor="squash-merging" %} {% include Util/top %}</h3>
+
+All pull requests should be merged using squash merges, consolidating the PR's individual commits into a single commit on the base branch (typically `develop`). This provides a cleaner, more concise commit history that's easier to review and use when preparing releases. Individual commit history can still be explored through the original PR when needed.
+
+When squash merging a PR, follow these guidelines:
+
+- **Commit title:** Use the PR title as the squash commit title, making minor adjustments if needed to keep it clear and descriptive.
+- **Changelog entries:** Replace individual commit messages with the PR's changelog entries in the squash commit description. If none exist, add a summary of the changes.
+- **Contributor credit:** Include `Co-authored-by: Name <email>` trailers for everyone who meaningfully contributed to the PR or its linked issues, ensuring their contributions are properly attributed.
+
+Taking a moment to prepare the squash commit message helps maintain a useful project history, simplifies release changelog preparation, and preserves contributor recognition.
+
+Repositories should be configured with the following GitHub merge settings:
+
+- **Enable:** Allow squash merging
+- **Disable:** Allow merge commits
+- **Disable:** Allow rebase merging
+
+This ensures all PRs follow the same merge strategy.
+
+This means that we’ll want the following GitHub settings:
 
 ![](../img/github-settings-branches.png)
 - Settings > Branches > Default branch: `develop`

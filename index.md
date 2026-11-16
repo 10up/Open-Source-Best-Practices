@@ -78,6 +78,7 @@ updated: 25 November 2019
 			<li><a href="{{ site.baseurl }}/github-process/#issue-pr-labels">Issue and PR labels</a></li>
 			<li><a href="{{ site.baseurl }}/github-process/#milestones">Milestones</a></li>
 			<li><a href="{{ site.baseurl }}/github-process/#branching-merging-deploying">Branching, Merging, and Deploying</a></li>
+			<li><a href="{{ site.baseurl }}/github-process/#squash-merging">Squash Merging</a></li>
 			<li><a href="{{ site.baseurl }}/github-process/#documentation">Documentation</a></li>
 			<li><a href="{{ site.baseurl }}/github-process/#support-levels">Support Levels</a></li>
 			<li><a href="{{ site.baseurl }}/github-process/#opengraph-image">OpenGraph Image</a></li>

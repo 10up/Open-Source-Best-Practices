@@ -12,6 +12,8 @@ subnav:
     tag: milestones
   - title: Branching, Merging, and Deploying
     tag: branching-merging-deploying
+  - title: Squash Merging
+    tag: squash-merging
   - title: Documentation
     tag: documentation
   - title: Support Levels
