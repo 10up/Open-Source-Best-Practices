@@ -53,7 +53,7 @@ In the scenario where your organization uses GitHub for code and publishes code 
 
 <h2 id="version-control" class="anchor-heading">Version Control {% include Util/link_anchor anchor="version-control" %}</h2>
 
-In general we follow the [Version Control guidelines from the 10up Engineering Best Practices](https://10up.github.io/Engineering-Best-Practices/version-control/#top) including the approaches for [structure](https://10up.github.io/Engineering-Best-Practices/version-control/#structure-package-management) and [workflows](https://10up.github.io/Engineering-Best-Practices/version-control/#workflows).
+In general we follow the [Version Control guidelines from the 10up Engineering Best Practices](https://10up.github.io/Engineering-Best-Practices/version-control/#top) including the approaches for [structure](https://10up.github.io/Engineering-Best-Practices/version-control/#structure-package-management) and [workflows](https://10up.github.io/Engineering-Best-Practices/version-control/#workflows).  However, Open Source Practice repositories exclusively use squash merges for pull requests, as outlined in our [Branching, Merging, and Deploying guidelines](https://10up.github.io/Open-Source-Best-Practices/github-process/#branching-merging-deploying).
 
 <h2 id="version-control" class="anchor-heading">WordPress and PHP Minimums {% include Util/link_anchor anchor="wp-php-mins" %}</h2>
 
